@@ -1,0 +1,10 @@
+"Solo Coop"
+{
+	"solocoop"
+	{
+		"title"		"Solo Cooperative Sp"
+		"subtitle"	"Play through Aperture as a robot!"
+		"pic"		"menu/solocoop/solocoop"
+		"command"	"ss_map mp_coop_lobby_3"
+	}
+}
