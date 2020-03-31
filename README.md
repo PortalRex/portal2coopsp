@@ -1,5 +1,5 @@
 # portal2-coop-sp
-This mod was heavily inspired by 'Portal 2 Speedrun Mod' by Krzychau.
+This mod was heavily inspired by 'Portal 2 Speedrun Mod' by Krzyhau.
 If you haven't checked it out please do so. https://krzyhau.github.io/Portal2SpeedrunMod/#about
 This wouldn't have been possible without the help of many others. Thank you all.
 
