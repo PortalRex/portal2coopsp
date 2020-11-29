@@ -3,7 +3,7 @@ This mod was heavily inspired by 'Portal 2 Speedrun Mod' by Krzyhau.
 If you haven't checked it out please do so. https://krzyhau.github.io/Portal2SpeedrunMod/#about
 This wouldn't have been possible without the help of many others. Thank you all.
 
-Portal 2 Cooperative Single Player Mod v0.1 by Rex (and many others)
+Portal 2 Cooperative Single Player Mod by Rex (and many others)
 
 How to install:
 1. Make sure you have the most recent version of Portal 2 installed on steam.
