@@ -1,0 +1,1622 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+"materials/tools/toolsblack_cheap.vtf": cached version doesn't exist
+Material not found!: TOOLS/TOOLSBLACK_CHEAP_NOFOG
+Patching WVT material: maps/mp_coop_a4_finale4/moon/moon_blend_rock_footprints_wvt_patch
+Patching WVT material: maps/mp_coop_a4_finale4/moon/moon_blend_rock_dust01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-11376.0 -653.8 68.8)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_GRATE CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_GRATE 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_GRATE 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_GRATE 
+Candidate brush IDs: Brush 5246: 
+
+Processing areas...Wrote C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.lin
+Areaportal leak ! File: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.lin 
+Brush 5950: areaportal brush doesn't touch two areas
+
+Brush 6163: areaportal brush doesn't touch two areas
+done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 456 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.prt...Building visibility clusters...
+done (1)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (583890 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2317 texinfos to 1364
+Reduced 70 texdatas to 64 (2192 bytes to 1972)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.bsp
+
+nummapplanes:     ( 17886 / 65536 )
+nummapbrushes:    (  1426 /  8192 )
+nummapbrushsides: ( 15600 / 65536 )
+num_map_overlays: (    16 /   512 )
+nummodels:        (   158 /  1024 )
+num_entities:     (  1105 / 16384 )
+
+3 seconds elapsed
+
+
+
+24 threads
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.prt
+2912 portalclusters
+10853 numportals
+0...
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+"materials/tools/toolsblack_cheap.vtf": cached version doesn't exist
+Material not found!: TOOLS/TOOLSBLACK_CHEAP_NOFOG
+Patching WVT material: maps/mp_coop_a4_finale4/moon/moon_blend_rock_footprints_wvt_patch
+Patching WVT material: maps/mp_coop_a4_finale4/moon/moon_blend_rock_dust01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-11376.0 -653.8 68.8)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_GRATE CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_GRATE 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_GRATE 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_GRATE 
+Candidate brush IDs: Brush 5246: 
+
+Processing areas...Wrote C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.lin
+Areaportal leak ! File: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.lin 
+Brush 6163: areaportal brush doesn't touch two areas
+done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 456 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (583890 bytes)
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+"materials/tools/toolsblack_cheap.vtf": cached version doesn't exist
+Material not found!: TOOLS/TOOLSBLACK_CHEAP_NOFOG
+Patching WVT material: maps/mp_coop_a4_finale4/moon/moon_blend_rock_footprints_wvt_patch
+Patching WVT material: maps/mp_coop_a4_finale4/moon/moon_blend_rock_dust01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-11376.0 -653.8 68.8)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_GRATE CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_GRATE 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_GRATE 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_GRATE 
+Candidate brush IDs: Brush 5246: 
+
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 456 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (583890 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2312 texinfos to 1364
+Reduced 70 texdatas to 64 (2192 bytes to 1972)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.bsp
+
+nummapplanes:     ( 17868 / 65536 )
+nummapbrushes:    (  1424 /  8192 )
+nummapbrushsides: ( 15576 / 65536 )
+num_map_overlays: (    16 /   512 )
+nummodels:        (   158 /  1024 )
+num_entities:     (  1103 / 16384 )
+
+3 seconds elapsed
+
+
+
+24 threads
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.prt
+2907 portalclusters
+10837 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 121681 visible clusters (0.00%)
+Total clusters visible: 6030894
+Average clusters visible: 2074
+Building PAS...
+Average clusters audible: 2323
+visdatasize:1713657  compressed from 2139552
+writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+1 second elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\Portal 2\bin\lights.rad.
+Loading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+4265 faces
+3833788 square feet [552065472.00 square inches]
+43 Displacements
+212838 Square Feet [30648736.00 Square Inches]
+4265 patches before subdivision
+58413 patches after subdivision
+46 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5408556, max 702
+transfer lists:  41.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43183, 46345, 45509)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(5154, 5966, 6310)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1186, 1447, 1580)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(383, 470, 512)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(133, 162, 174)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(49, 59, 62)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(18, 22, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(7, 8, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0124 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 158/1024         7584/49152    (15.4%) 
+brushes               1424/8192        17088/98304    (17.4%) 
+brushsides           15381/65536      123048/524288   (23.5%) 
+planes               17868/65536      357360/1310720  (27.3%) 
+vertexes             10245/65536      122940/786432   (15.6%) 
+nodes                 4961/65536      158752/2097152  ( 7.6%) 
+texinfos              1364/12288       98208/884736   (11.1%) 
+texdata                 64/2048         2048/65536    ( 3.1%) 
+dispinfos               43/0            7568/0        ( 0.0%) 
+disp_verts           10315/0          206300/0        ( 0.0%) 
+disp_tris            18176/0           36352/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      147309/0          147309/0        ( 0.0%) 
+faces                 4265/65536      238840/3670016  ( 6.5%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2726/65536      152656/3670016  ( 4.2%) 
+facebrushes            858/0            1716/0        ( 0.0%) 
+facebrushlists        4265/0           17060/0        ( 0.0%) 
+leaves                5120/65536      163840/2097152  ( 7.8%) 
+leaffaces             8224/65536       16448/131072   (12.5%) 
+leafbrushes           6498/65536       12996/131072   ( 9.9%) 
+areas                   12/256            96/2048     ( 4.7%) 
+surfedges            30491/512000     121964/2048000  ( 6.0%) 
+edges                18751/256000      75004/1024000  ( 7.3%) 
+LDR worldlights         46/8192         4600/819200   ( 0.6%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            480/32768        4800/327680   ( 1.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8058/65536       16116/131072   (12.3%) 
+cubemapsamples          19/1024          304/16384    ( 1.9%) 
+overlays                16/512          5632/180224   ( 3.1%) 
+LDR lightdata         [variable]     4276144/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1713657/16777216 (10.2%) 
+entdata               [variable]      426486/393216   (108.5%) VERY FULL!
+LDR ambient table     5120/65536       20480/262144   ( 7.8%) 
+HDR ambient table     5120/65536       20480/262144   ( 7.8%) 
+LDR leaf ambient     28754/65536      805112/1835008  (43.9%) 
+HDR leaf ambient      5120/65536      143360/1835008  ( 7.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/43938    ( 0.0%) 
+pakfile               [variable]     1491120/0        ( 0.0%) 
+physics               [variable]      583890/4194304  (13.9%) 
+physics terrain       [variable]       30078/1048576  ( 2.9%) 
+
+Level flags = 0
+
+Total triangle count: 10966
+Writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+35 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+"materials/tools/toolsblack_cheap.vtf": cached version doesn't exist
+Material not found!: TOOLS/TOOLSBLACK_CHEAP_NOFOG
+Patching WVT material: maps/mp_coop_a4_finale4/moon/moon_blend_rock_footprints_wvt_patch
+Patching WVT material: maps/mp_coop_a4_finale4/moon/moon_blend_rock_dust01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-11376.0 -653.8 68.8)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_GRATE CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_GRATE 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_GRATE 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_GRATE 
+Candidate brush IDs: Brush 5246: 
+
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 456 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (585555 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2321 texinfos to 1384
+Reduced 70 texdatas to 64 (2192 bytes to 1972)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.bsp
+
+nummapplanes:     ( 17908 / 65536 )
+nummapbrushes:    (  1427 /  8192 )
+nummapbrushsides: ( 15594 / 65536 )
+num_map_overlays: (    16 /   512 )
+nummodels:        (   161 /  1024 )
+num_entities:     (  1112 / 16384 )
+
+3 seconds elapsed
+
+
+
+24 threads
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.prt
+2907 portalclusters
+10837 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 121681 visible clusters (0.00%)
+Total clusters visible: 6030894
+Average clusters visible: 2074
+Building PAS...
+Average clusters audible: 2323
+visdatasize:1713657  compressed from 2139552
+writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+1 second elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\Portal 2\bin\lights.rad.
+Loading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+4296 faces
+3838372 square feet [552725568.00 square inches]
+43 Displacements
+212838 Square Feet [30648736.00 Square Inches]
+4296 patches before subdivision
+58550 patches after subdivision
+46 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5434682, max 702
+transfer lists:  41.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43244, 46411, 45577)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(5160, 5973, 6317)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1187, 1448, 1581)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(383, 471, 512)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(133, 162, 174)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(49, 59, 62)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(18, 22, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(7, 8, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0126 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 161/1024         7728/49152    (15.7%) 
+brushes               1427/8192        17124/98304    (17.4%) 
+brushsides           15399/65536      123192/524288   (23.5%) 
+planes               17908/65536      358160/1310720  (27.3%) 
+vertexes             10269/65536      123228/786432   (15.7%) 
+nodes                 4979/65536      159328/2097152  ( 7.6%) 
+texinfos              1384/12288       99648/884736   (11.3%) 
+texdata                 64/2048         2048/65536    ( 3.1%) 
+dispinfos               43/0            7568/0        ( 0.0%) 
+disp_verts           10315/0          206300/0        ( 0.0%) 
+disp_tris            18176/0           36352/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      147309/0          147309/0        ( 0.0%) 
+faces                 4296/65536      240576/3670016  ( 6.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2757/65536      154392/3670016  ( 4.2%) 
+facebrushes            858/0            1716/0        ( 0.0%) 
+facebrushlists        4296/0           17184/0        ( 0.0%) 
+leaves                5141/65536      164512/2097152  ( 7.8%) 
+leaffaces             8255/65536       16510/131072   (12.6%) 
+leafbrushes           6501/65536       13002/131072   ( 9.9%) 
+areas                   12/256            96/2048     ( 4.7%) 
+surfedges            30739/512000     122956/2048000  ( 6.0%) 
+edges                18903/256000      75612/1024000  ( 7.4%) 
+LDR worldlights         46/8192         4600/819200   ( 0.6%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            480/32768        4800/327680   ( 1.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8058/65536       16116/131072   (12.3%) 
+cubemapsamples          19/1024          304/16384    ( 1.9%) 
+overlays                16/512          5632/180224   ( 3.1%) 
+LDR lightdata         [variable]     4306704/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1713657/16777216 (10.2%) 
+entdata               [variable]      428621/393216   (109.0%) VERY FULL!
+LDR ambient table     5141/65536       20564/262144   ( 7.8%) 
+HDR ambient table     5141/65536       20564/262144   ( 7.8%) 
+LDR leaf ambient     28892/65536      808976/1835008  (44.1%) 
+HDR leaf ambient      5141/65536      143948/1835008  ( 7.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/43938    ( 0.0%) 
+pakfile               [variable]     1491120/0        ( 0.0%) 
+physics               [variable]      585555/4194304  (14.0%) 
+physics terrain       [variable]       30078/1048576  ( 2.9%) 
+
+Level flags = 0
+
+Total triangle count: 11028
+Writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+35 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+"materials/tools/toolsblack_cheap.vtf": cached version doesn't exist
+Material not found!: TOOLS/TOOLSBLACK_CHEAP_NOFOG
+Patching WVT material: maps/mp_coop_a4_finale4/moon/moon_blend_rock_footprints_wvt_patch
+Patching WVT material: maps/mp_coop_a4_finale4/moon/moon_blend_rock_dust01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-11376.0 -653.8 68.8)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_GRATE CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_GRATE 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_GRATE 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_GRATE 
+Candidate brush IDs: Brush 5246: 
+
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 456 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.prt...Building visibility clusters...
+done (1)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (585554 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2322 texinfos to 1385
+Reduced 70 texdatas to 64 (2192 bytes to 1972)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.bsp
+
+nummapplanes:     ( 17920 / 65536 )
+nummapbrushes:    (  1427 /  8192 )
+nummapbrushsides: ( 15594 / 65536 )
+num_map_overlays: (    16 /   512 )
+nummodels:        (   161 /  1024 )
+num_entities:     (  1112 / 16384 )
+
+3 seconds elapsed
+
+
+
+24 threads
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.prt
+2907 portalclusters
+10837 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 121681 visible clusters (0.00%)
+Total clusters visible: 6030894
+Average clusters visible: 2074
+Building PAS...
+Average clusters audible: 2323
+visdatasize:1713657  compressed from 2139552
+writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+1 second elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\Portal 2\bin\lights.rad.
+Loading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+4296 faces
+3837706 square feet [552629696.00 square inches]
+43 Displacements
+212838 Square Feet [30648736.00 Square Inches]
+4296 patches before subdivision
+58550 patches after subdivision
+46 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5434689, max 702
+transfer lists:  41.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43244, 46411, 45577)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(5160, 5973, 6317)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1187, 1448, 1581)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(383, 471, 512)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(133, 162, 174)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(49, 59, 62)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(18, 22, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(7, 8, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0136 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 161/1024         7728/49152    (15.7%) 
+brushes               1427/8192        17124/98304    (17.4%) 
+brushsides           15399/65536      123192/524288   (23.5%) 
+planes               17920/65536      358400/1310720  (27.3%) 
+vertexes             10269/65536      123228/786432   (15.7%) 
+nodes                 4979/65536      159328/2097152  ( 7.6%) 
+texinfos              1385/12288       99720/884736   (11.3%) 
+texdata                 64/2048         2048/65536    ( 3.1%) 
+dispinfos               43/0            7568/0        ( 0.0%) 
+disp_verts           10315/0          206300/0        ( 0.0%) 
+disp_tris            18176/0           36352/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      147309/0          147309/0        ( 0.0%) 
+faces                 4296/65536      240576/3670016  ( 6.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2757/65536      154392/3670016  ( 4.2%) 
+facebrushes            858/0            1716/0        ( 0.0%) 
+facebrushlists        4296/0           17184/0        ( 0.0%) 
+leaves                5141/65536      164512/2097152  ( 7.8%) 
+leaffaces             8255/65536       16510/131072   (12.6%) 
+leafbrushes           6501/65536       13002/131072   ( 9.9%) 
+areas                   12/256            96/2048     ( 4.7%) 
+surfedges            30739/512000     122956/2048000  ( 6.0%) 
+edges                18903/256000      75612/1024000  ( 7.4%) 
+LDR worldlights         46/8192         4600/819200   ( 0.6%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            480/32768        4800/327680   ( 1.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8058/65536       16116/131072   (12.3%) 
+cubemapsamples          19/1024          304/16384    ( 1.9%) 
+overlays                16/512          5632/180224   ( 3.1%) 
+LDR lightdata         [variable]     4306704/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1713657/16777216 (10.2%) 
+entdata               [variable]      428622/393216   (109.0%) VERY FULL!
+LDR ambient table     5141/65536       20564/262144   ( 7.8%) 
+HDR ambient table     5141/65536       20564/262144   ( 7.8%) 
+LDR leaf ambient     28892/65536      808976/1835008  (44.1%) 
+HDR leaf ambient      5141/65536      143948/1835008  ( 7.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/43938    ( 0.0%) 
+pakfile               [variable]     1491120/0        ( 0.0%) 
+physics               [variable]      585554/4194304  (14.0%) 
+physics terrain       [variable]       30078/1048576  ( 2.9%) 
+
+Level flags = 0
+
+Total triangle count: 11028
+Writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+35 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+"materials/tools/toolsblack_cheap.vtf": cached version doesn't exist
+Material not found!: TOOLS/TOOLSBLACK_CHEAP_NOFOG
+Patching WVT material: maps/mp_coop_a4_finale4/moon/moon_blend_rock_footprints_wvt_patch
+Patching WVT material: maps/mp_coop_a4_finale4/moon/moon_blend_rock_dust01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-11376.0 -653.8 68.8)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_GRATE CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_GRATE 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_GRATE 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_GRATE 
+Candidate brush IDs: Brush 5246: 
+
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 456 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.prt...Building visibility clusters...
+done (1)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (585554 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2322 texinfos to 1385
+Reduced 70 texdatas to 64 (2192 bytes to 1972)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.bsp
+
+nummapplanes:     ( 17920 / 65536 )
+nummapbrushes:    (  1427 /  8192 )
+nummapbrushsides: ( 15594 / 65536 )
+num_map_overlays: (    16 /   512 )
+nummodels:        (   161 /  1024 )
+num_entities:     (  1112 / 16384 )
+
+3 seconds elapsed
+
+
+
+24 threads
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.prt
+2907 portalclusters
+10837 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 121681 visible clusters (0.00%)
+Total clusters visible: 6030894
+Average clusters visible: 2074
+Building PAS...
+Average clusters audible: 2323
+visdatasize:1713657  compressed from 2139552
+writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+1 second elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\Portal 2\bin\lights.rad.
+Loading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+4296 faces
+3837706 square feet [552629696.00 square inches]
+43 Displacements
+212838 Square Feet [30648736.00 Square Inches]
+4296 patches before subdivision
+58550 patches after subdivision
+46 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5434689, max 702
+transfer lists:  41.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43244, 46411, 45577)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(5160, 5973, 6317)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1187, 1448, 1581)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(383, 471, 512)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(133, 162, 174)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(49, 59, 62)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(18, 22, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(7, 8, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0125 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 161/1024         7728/49152    (15.7%) 
+brushes               1427/8192        17124/98304    (17.4%) 
+brushsides           15399/65536      123192/524288   (23.5%) 
+planes               17920/65536      358400/1310720  (27.3%) 
+vertexes             10269/65536      123228/786432   (15.7%) 
+nodes                 4979/65536      159328/2097152  ( 7.6%) 
+texinfos              1385/12288       99720/884736   (11.3%) 
+texdata                 64/2048         2048/65536    ( 3.1%) 
+dispinfos               43/0            7568/0        ( 0.0%) 
+disp_verts           10315/0          206300/0        ( 0.0%) 
+disp_tris            18176/0           36352/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      147309/0          147309/0        ( 0.0%) 
+faces                 4296/65536      240576/3670016  ( 6.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2757/65536      154392/3670016  ( 4.2%) 
+facebrushes            858/0            1716/0        ( 0.0%) 
+facebrushlists        4296/0           17184/0        ( 0.0%) 
+leaves                5141/65536      164512/2097152  ( 7.8%) 
+leaffaces             8255/65536       16510/131072   (12.6%) 
+leafbrushes           6501/65536       13002/131072   ( 9.9%) 
+areas                   12/256            96/2048     ( 4.7%) 
+surfedges            30739/512000     122956/2048000  ( 6.0%) 
+edges                18903/256000      75612/1024000  ( 7.4%) 
+LDR worldlights         46/8192         4600/819200   ( 0.6%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            480/32768        4800/327680   ( 1.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8058/65536       16116/131072   (12.3%) 
+cubemapsamples          19/1024          304/16384    ( 1.9%) 
+overlays                16/512          5632/180224   ( 3.1%) 
+LDR lightdata         [variable]     4306704/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1713657/16777216 (10.2%) 
+entdata               [variable]      428623/393216   (109.0%) VERY FULL!
+LDR ambient table     5141/65536       20564/262144   ( 7.8%) 
+HDR ambient table     5141/65536       20564/262144   ( 7.8%) 
+LDR leaf ambient     28892/65536      808976/1835008  (44.1%) 
+HDR leaf ambient      5141/65536      143948/1835008  ( 7.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/43938    ( 0.0%) 
+pakfile               [variable]     1491120/0        ( 0.0%) 
+physics               [variable]      585554/4194304  (14.0%) 
+physics terrain       [variable]       30078/1048576  ( 2.9%) 
+
+Level flags = 0
+
+Total triangle count: 11028
+Writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+35 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+"materials/tools/toolsblack_cheap.vtf": cached version doesn't exist
+Material not found!: TOOLS/TOOLSBLACK_CHEAP_NOFOG
+Patching WVT material: maps/mp_coop_a4_finale4/moon/moon_blend_rock_footprints_wvt_patch
+Patching WVT material: maps/mp_coop_a4_finale4/moon/moon_blend_rock_dust01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-11376.0 -653.8 68.8)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_GRATE CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_GRATE 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_GRATE 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_GRATE 
+Candidate brush IDs: Brush 5246: 
+
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 456 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.prt...Building visibility clusters...
+done (1)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (585000 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2323 texinfos to 1387
+Reduced 70 texdatas to 64 (2192 bytes to 1972)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.bsp
+
+nummapplanes:     ( 17920 / 65536 )
+nummapbrushes:    (  1426 /  8192 )
+nummapbrushsides: ( 15588 / 65536 )
+num_map_overlays: (    16 /   512 )
+nummodels:        (   160 /  1024 )
+num_entities:     (  1111 / 16384 )
+
+3 seconds elapsed
+
+
+
+24 threads
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.prt
+2907 portalclusters
+10837 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 121681 visible clusters (0.00%)
+Total clusters visible: 6030894
+Average clusters visible: 2074
+Building PAS...
+Average clusters audible: 2323
+visdatasize:1713657  compressed from 2139552
+writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+1 second elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\Portal 2\bin\lights.rad.
+Loading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+4296 faces
+3837770 square feet [552638912.00 square inches]
+43 Displacements
+212838 Square Feet [30648736.00 Square Inches]
+4296 patches before subdivision
+58858 patches after subdivision
+46 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5462994, max 702
+transfer lists:  41.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43267, 46437, 45603)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(5162, 5976, 6320)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1187, 1449, 1581)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(383, 471, 512)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(133, 162, 174)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(49, 59, 62)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(18, 22, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(7, 8, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0132 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 160/1024         7680/49152    (15.6%) 
+brushes               1426/8192        17112/98304    (17.4%) 
+brushsides           15393/65536      123144/524288   (23.5%) 
+planes               17920/65536      358400/1310720  (27.3%) 
+vertexes             10261/65536      123132/786432   (15.7%) 
+nodes                 4973/65536      159136/2097152  ( 7.6%) 
+texinfos              1387/12288       99864/884736   (11.3%) 
+texdata                 64/2048         2048/65536    ( 3.1%) 
+dispinfos               43/0            7568/0        ( 0.0%) 
+disp_verts           10315/0          206300/0        ( 0.0%) 
+disp_tris            18176/0           36352/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      147309/0          147309/0        ( 0.0%) 
+faces                 4296/65536      240576/3670016  ( 6.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2757/65536      154392/3670016  ( 4.2%) 
+facebrushes            858/0            1716/0        ( 0.0%) 
+facebrushlists        4296/0           17184/0        ( 0.0%) 
+leaves                5134/65536      164288/2097152  ( 7.8%) 
+leaffaces             8255/65536       16510/131072   (12.6%) 
+leafbrushes           6500/65536       13000/131072   ( 9.9%) 
+areas                   12/256            96/2048     ( 4.7%) 
+surfedges            30739/512000     122956/2048000  ( 6.0%) 
+edges                18903/256000      75612/1024000  ( 7.4%) 
+LDR worldlights         46/8192         4600/819200   ( 0.6%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            480/32768        4800/327680   ( 1.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8058/65536       16116/131072   (12.3%) 
+cubemapsamples          19/1024          304/16384    ( 1.9%) 
+overlays                16/512          5632/180224   ( 3.1%) 
+LDR lightdata         [variable]     4330456/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1713657/16777216 (10.2%) 
+entdata               [variable]      427886/393216   (108.8%) VERY FULL!
+LDR ambient table     5134/65536       20536/262144   ( 7.8%) 
+HDR ambient table     5134/65536       20536/262144   ( 7.8%) 
+LDR leaf ambient     28828/65536      807184/1835008  (44.0%) 
+HDR leaf ambient      5134/65536      143752/1835008  ( 7.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/43938    ( 0.0%) 
+pakfile               [variable]     1491120/0        ( 0.0%) 
+physics               [variable]      585000/4194304  (13.9%) 
+physics terrain       [variable]       30078/1048576  ( 2.9%) 
+
+Level flags = 0
+
+Total triangle count: 11028
+Writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+35 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+"materials/tools/toolsblack_cheap.vtf": cached version doesn't exist
+Material not found!: TOOLS/TOOLSBLACK_CHEAP_NOFOG
+Patching WVT material: maps/mp_coop_a4_finale4/moon/moon_blend_rock_footprints_wvt_patch
+Patching WVT material: maps/mp_coop_a4_finale4/moon/moon_blend_rock_dust01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-11376.0 -653.8 68.8)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_GRATE CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_GRATE 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_GRATE 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_GRATE 
+Candidate brush IDs: Brush 5246: 
+
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 456 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (585554 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2326 texinfos to 1390
+Reduced 70 texdatas to 64 (2192 bytes to 1972)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.bsp
+
+nummapplanes:     ( 17920 / 65536 )
+nummapbrushes:    (  1427 /  8192 )
+nummapbrushsides: ( 15594 / 65536 )
+num_map_overlays: (    16 /   512 )
+nummodels:        (   161 /  1024 )
+num_entities:     (  1112 / 16384 )
+
+3 seconds elapsed
+
+
+
+24 threads
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.prt
+2907 portalclusters
+10837 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 121681 visible clusters (0.00%)
+Total clusters visible: 6030894
+Average clusters visible: 2074
+Building PAS...
+Average clusters audible: 2323
+visdatasize:1713657  compressed from 2139552
+writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+1 second elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\Portal 2\bin\lights.rad.
+Loading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+4302 faces
+3838986 square feet [552814016.00 square inches]
+43 Displacements
+212838 Square Feet [30648736.00 Square Inches]
+4302 patches before subdivision
+58864 patches after subdivision
+46 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5464008, max 702
+transfer lists:  41.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43268, 46438, 45604)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(5162, 5976, 6320)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1187, 1449, 1581)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(383, 471, 512)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(133, 162, 174)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(49, 59, 62)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(18, 22, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(7, 8, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0123 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 161/1024         7728/49152    (15.7%) 
+brushes               1427/8192        17124/98304    (17.4%) 
+brushsides           15399/65536      123192/524288   (23.5%) 
+planes               17920/65536      358400/1310720  (27.3%) 
+vertexes             10269/65536      123228/786432   (15.7%) 
+nodes                 4979/65536      159328/2097152  ( 7.6%) 
+texinfos              1390/12288      100080/884736   (11.3%) 
+texdata                 64/2048         2048/65536    ( 3.1%) 
+dispinfos               43/0            7568/0        ( 0.0%) 
+disp_verts           10315/0          206300/0        ( 0.0%) 
+disp_tris            18176/0           36352/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      147309/0          147309/0        ( 0.0%) 
+faces                 4302/65536      240912/3670016  ( 6.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2763/65536      154728/3670016  ( 4.2%) 
+facebrushes            858/0            1716/0        ( 0.0%) 
+facebrushlists        4302/0           17208/0        ( 0.0%) 
+leaves                5141/65536      164512/2097152  ( 7.8%) 
+leaffaces             8261/65536       16522/131072   (12.6%) 
+leafbrushes           6501/65536       13002/131072   ( 9.9%) 
+areas                   12/256            96/2048     ( 4.7%) 
+surfedges            30787/512000     123148/2048000  ( 6.0%) 
+edges                18927/256000      75708/1024000  ( 7.4%) 
+LDR worldlights         46/8192         4600/819200   ( 0.6%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            480/32768        4800/327680   ( 1.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8058/65536       16116/131072   (12.3%) 
+cubemapsamples          19/1024          304/16384    ( 1.9%) 
+overlays                16/512          5632/180224   ( 3.1%) 
+LDR lightdata         [variable]     4330456/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1713657/16777216 (10.2%) 
+entdata               [variable]      428623/393216   (109.0%) VERY FULL!
+LDR ambient table     5141/65536       20564/262144   ( 7.8%) 
+HDR ambient table     5141/65536       20564/262144   ( 7.8%) 
+LDR leaf ambient     28892/65536      808976/1835008  (44.1%) 
+HDR leaf ambient      5141/65536      143948/1835008  ( 7.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/43938    ( 0.0%) 
+pakfile               [variable]     1491120/0        ( 0.0%) 
+physics               [variable]      585554/4194304  (14.0%) 
+physics terrain       [variable]       30078/1048576  ( 2.9%) 
+
+Level flags = 0
+
+Total triangle count: 11040
+Writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+35 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+"materials/tools/toolsblack_cheap.vtf": cached version doesn't exist
+Material not found!: TOOLS/TOOLSBLACK_CHEAP_NOFOG
+Patching WVT material: maps/mp_coop_a4_finale4/moon/moon_blend_rock_footprints_wvt_patch
+Patching WVT material: maps/mp_coop_a4_finale4/moon/moon_blend_rock_dust01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-11376.0 -653.8 68.8)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_GRATE CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_GRATE 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_GRATE 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_GRATE 
+Candidate brush IDs: Brush 5246: 
+
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 456 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (586108 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2326 texinfos to 1390
+Reduced 70 texdatas to 64 (2192 bytes to 1972)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.bsp
+
+nummapplanes:     ( 17932 / 65536 )
+nummapbrushes:    (  1428 /  8192 )
+nummapbrushsides: ( 15600 / 65536 )
+num_map_overlays: (    16 /   512 )
+nummodels:        (   162 /  1024 )
+num_entities:     (  1113 / 16384 )
+
+3 seconds elapsed
+
+
+
+24 threads
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.prt
+2907 portalclusters
+10837 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 121681 visible clusters (0.00%)
+Total clusters visible: 6030894
+Average clusters visible: 2074
+Building PAS...
+Average clusters audible: 2323
+visdatasize:1713657  compressed from 2139552
+writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+1 second elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\Portal 2\bin\lights.rad.
+Loading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+4308 faces
+3840128 square feet [552978496.00 square inches]
+43 Displacements
+212838 Square Feet [30648736.00 Square Inches]
+4308 patches before subdivision
+58870 patches after subdivision
+46 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5465031, max 702
+transfer lists:  41.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43268, 46438, 45604)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(5162, 5976, 6320)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1187, 1449, 1581)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(383, 471, 512)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(133, 162, 174)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(49, 59, 62)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(18, 22, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(7, 8, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0124 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 162/1024         7776/49152    (15.8%) 
+brushes               1428/8192        17136/98304    (17.4%) 
+brushsides           15405/65536      123240/524288   (23.5%) 
+planes               17932/65536      358640/1310720  (27.4%) 
+vertexes             10277/65536      123324/786432   (15.7%) 
+nodes                 4985/65536      159520/2097152  ( 7.6%) 
+texinfos              1390/12288      100080/884736   (11.3%) 
+texdata                 64/2048         2048/65536    ( 3.1%) 
+dispinfos               43/0            7568/0        ( 0.0%) 
+disp_verts           10315/0          206300/0        ( 0.0%) 
+disp_tris            18176/0           36352/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      147309/0          147309/0        ( 0.0%) 
+faces                 4308/65536      241248/3670016  ( 6.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2769/65536      155064/3670016  ( 4.2%) 
+facebrushes            858/0            1716/0        ( 0.0%) 
+facebrushlists        4308/0           17232/0        ( 0.0%) 
+leaves                5148/65536      164736/2097152  ( 7.9%) 
+leaffaces             8267/65536       16534/131072   (12.6%) 
+leafbrushes           6502/65536       13004/131072   ( 9.9%) 
+areas                   12/256            96/2048     ( 4.7%) 
+surfedges            30835/512000     123340/2048000  ( 6.0%) 
+edges                18951/256000      75804/1024000  ( 7.4%) 
+LDR worldlights         46/8192         4600/819200   ( 0.6%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            480/32768        4800/327680   ( 1.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8058/65536       16116/131072   (12.3%) 
+cubemapsamples          19/1024          304/16384    ( 1.9%) 
+overlays                16/512          5632/180224   ( 3.1%) 
+LDR lightdata         [variable]     4330456/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1713657/16777216 (10.2%) 
+entdata               [variable]      429487/393216   (109.2%) VERY FULL!
+LDR ambient table     5148/65536       20592/262144   ( 7.9%) 
+HDR ambient table     5148/65536       20592/262144   ( 7.9%) 
+LDR leaf ambient     28946/65536      810488/1835008  (44.2%) 
+HDR leaf ambient      5148/65536      144144/1835008  ( 7.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/43938    ( 0.0%) 
+pakfile               [variable]     1491120/0        ( 0.0%) 
+physics               [variable]      586108/4194304  (14.0%) 
+physics terrain       [variable]       30078/1048576  ( 2.9%) 
+
+Level flags = 0
+
+Total triangle count: 11052
+Writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+35 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+"materials/tools/toolsblack_cheap.vtf": cached version doesn't exist
+Material not found!: TOOLS/TOOLSBLACK_CHEAP_NOFOG
+Patching WVT material: maps/mp_coop_a4_finale4/moon/moon_blend_rock_footprints_wvt_patch
+Patching WVT material: maps/mp_coop_a4_finale4/moon/moon_blend_rock_dust01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-11376.0 -653.8 68.8)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_GRATE CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_GRATE 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_GRATE 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_GRATE 
+Candidate brush IDs: Brush 5246: 
+
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 456 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.prt...Building visibility clusters...
+done (1)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (586108 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2326 texinfos to 1390
+Reduced 70 texdatas to 64 (2192 bytes to 1972)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.bsp
+
+nummapplanes:     ( 17932 / 65536 )
+nummapbrushes:    (  1428 /  8192 )
+nummapbrushsides: ( 15600 / 65536 )
+num_map_overlays: (    16 /   512 )
+nummodels:        (   162 /  1024 )
+num_entities:     (  1113 / 16384 )
+
+3 seconds elapsed
+
+
+
+24 threads
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.prt
+2907 portalclusters
+10837 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 121681 visible clusters (0.00%)
+Total clusters visible: 6030894
+Average clusters visible: 2074
+Building PAS...
+Average clusters audible: 2323
+visdatasize:1713657  compressed from 2139552
+writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+1 second elapsed
+
+
+
+Could not find lights.rad in lights.rad.
+Trying VRAD BIN directory instead...
+Warning: Couldn't open texlight file C:\Program Files (x86)\Steam\steamapps\common\Portal 2\bin\lights.rad.
+Loading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+4308 faces
+3840128 square feet [552978496.00 square inches]
+43 Displacements
+212838 Square Feet [30648736.00 Square Inches]
+4308 patches before subdivision
+58870 patches after subdivision
+46 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 5465031, max 702
+transfer lists:  41.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(43268, 46438, 45604)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(5162, 5976, 6320)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1187, 1449, 1581)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(383, 471, 512)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(133, 162, 174)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(49, 59, 62)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(18, 22, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(7, 8, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 3, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0125 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 162/1024         7776/49152    (15.8%) 
+brushes               1428/8192        17136/98304    (17.4%) 
+brushsides           15405/65536      123240/524288   (23.5%) 
+planes               17932/65536      358640/1310720  (27.4%) 
+vertexes             10277/65536      123324/786432   (15.7%) 
+nodes                 4985/65536      159520/2097152  ( 7.6%) 
+texinfos              1390/12288      100080/884736   (11.3%) 
+texdata                 64/2048         2048/65536    ( 3.1%) 
+dispinfos               43/0            7568/0        ( 0.0%) 
+disp_verts           10315/0          206300/0        ( 0.0%) 
+disp_tris            18176/0           36352/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      147309/0          147309/0        ( 0.0%) 
+faces                 4308/65536      241248/3670016  ( 6.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2769/65536      155064/3670016  ( 4.2%) 
+facebrushes            858/0            1716/0        ( 0.0%) 
+facebrushlists        4308/0           17232/0        ( 0.0%) 
+leaves                5148/65536      164736/2097152  ( 7.9%) 
+leaffaces             8267/65536       16534/131072   (12.6%) 
+leafbrushes           6502/65536       13004/131072   ( 9.9%) 
+areas                   12/256            96/2048     ( 4.7%) 
+surfedges            30835/512000     123340/2048000  ( 6.0%) 
+edges                18951/256000      75804/1024000  ( 7.4%) 
+LDR worldlights         46/8192         4600/819200   ( 0.6%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            480/32768        4800/327680   ( 1.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8058/65536       16116/131072   (12.3%) 
+cubemapsamples          19/1024          304/16384    ( 1.9%) 
+overlays                16/512          5632/180224   ( 3.1%) 
+LDR lightdata         [variable]     4330456/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1713657/16777216 (10.2%) 
+entdata               [variable]      429487/393216   (109.2%) VERY FULL!
+LDR ambient table     5148/65536       20592/262144   ( 7.9%) 
+HDR ambient table     5148/65536       20592/262144   ( 7.9%) 
+LDR leaf ambient     28946/65536      810488/1835008  (44.2%) 
+HDR leaf ambient      5148/65536      144144/1835008  ( 7.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/43938    ( 0.0%) 
+pakfile               [variable]     1491120/0        ( 0.0%) 
+physics               [variable]      586108/4194304  (14.0%) 
+physics terrain       [variable]       30078/1048576  ( 2.9%) 
+
+Level flags = 0
+
+Total triangle count: 11052
+Writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+35 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[59 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Loaded alpha texture materials\Tools\toolsinvisible.vtf
+Loaded alpha texture materials\Metal\metalgrate018.vtf
+4308 faces
+3840128 square feet [552978496.00 square inches]
+43 Displacements
+212838 Square Feet [30648736.00 Square Inches]
+4308 patches before subdivision
+58870 patches after subdivision
+46 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4454567, max 597
+transfer lists:  34.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(39838, 42153, 40813)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3745, 4215, 4364)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(650, 783, 845)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(174, 213, 230)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(51, 62, 65)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(16, 20, 20)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(5, 6, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0125 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 162/1024         7776/49152    (15.8%) 
+brushes               1428/8192        17136/98304    (17.4%) 
+brushsides           15405/65536      123240/524288   (23.5%) 
+planes               17932/65536      358640/1310720  (27.4%) 
+vertexes             10277/65536      123324/786432   (15.7%) 
+nodes                 4985/65536      159520/2097152  ( 7.6%) 
+texinfos              1390/12288      100080/884736   (11.3%) 
+texdata                 64/2048         2048/65536    ( 3.1%) 
+dispinfos               43/0            7568/0        ( 0.0%) 
+disp_verts           10315/0          206300/0        ( 0.0%) 
+disp_tris            18176/0           36352/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      147309/0          147309/0        ( 0.0%) 
+faces                 4308/65536      241248/3670016  ( 6.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2769/65536      155064/3670016  ( 4.2%) 
+facebrushes            858/0            1716/0        ( 0.0%) 
+facebrushlists        4308/0           17232/0        ( 0.0%) 
+leaves                5148/65536      164736/2097152  ( 7.9%) 
+leaffaces             8267/65536       16534/131072   (12.6%) 
+leafbrushes           6502/65536       13004/131072   ( 9.9%) 
+areas                   12/256            96/2048     ( 4.7%) 
+surfedges            30835/512000     123340/2048000  ( 6.0%) 
+edges                18951/256000      75804/1024000  ( 7.4%) 
+LDR worldlights         46/8192         4600/819200   ( 0.6%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            480/32768        4800/327680   ( 1.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8058/65536       16116/131072   (12.3%) 
+cubemapsamples          19/1024          304/16384    ( 1.9%) 
+overlays                16/512          5632/180224   ( 3.1%) 
+LDR lightdata         [variable]     4349244/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]     1713657/16777216 (10.2%) 
+entdata               [variable]      429487/393216   (109.2%) VERY FULL!
+LDR ambient table     5148/65536       20592/262144   ( 7.9%) 
+HDR ambient table     5148/65536       20592/262144   ( 7.9%) 
+LDR leaf ambient     28680/65536      803040/1835008  (43.8%) 
+HDR leaf ambient      5148/65536      144144/1835008  ( 7.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/43938    ( 0.0%) 
+pakfile               [variable]     3744084/0        ( 0.0%) 
+physics               [variable]      586108/4194304  (14.0%) 
+physics terrain       [variable]       30078/1048576  ( 2.9%) 
+
+Level flags = 1
+
+Total triangle count: 11052
+Writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+2 minutes, 38 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[59 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Patch Sample Radius Clamped!
+Loaded alpha texture materials\Tools\toolsinvisible.vtf
+Loaded alpha texture materials\Metal\metalgrate018.vtf
+4308 faces
+3840128 square feet [552978496.00 square inches]
+43 Displacements
+212838 Square Feet [30648736.00 Square Inches]
+4308 patches before subdivision
+58870 patches after subdivision
+46 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 4454567, max 597
+transfer lists:  34.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(39838, 42153, 40813)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3745, 4215, 4364)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(650, 783, 845)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(174, 213, 230)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(51, 62, 65)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(16, 20, 20)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(5, 6, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 2, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 1, 1)
+Build Patch/Sample Hash Table(s).....Done<0.2779 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 162/1024         7776/49152    (15.8%) 
+brushes               1428/8192        17136/98304    (17.4%) 
+brushsides           15405/65536      123240/524288   (23.5%) 
+planes               17932/65536      358640/1310720  (27.4%) 
+vertexes             10277/65536      123324/786432   (15.7%) 
+nodes                 4985/65536      159520/2097152  ( 7.6%) 
+texinfos              1390/12288      100080/884736   (11.3%) 
+texdata                 64/2048         2048/65536    ( 3.1%) 
+dispinfos               43/0            7568/0        ( 0.0%) 
+disp_verts           10315/0          206300/0        ( 0.0%) 
+disp_tris            18176/0           36352/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples      147309/0          147309/0        ( 0.0%) 
+faces                 4308/65536      241248/3670016  ( 6.6%) 
+hdr faces             4308/65536      241248/3670016  ( 6.6%) 
+origfaces             2769/65536      155064/3670016  ( 4.2%) 
+facebrushes            858/0            1716/0        ( 0.0%) 
+facebrushlists        4308/0           17232/0        ( 0.0%) 
+leaves                5148/65536      164736/2097152  ( 7.9%) 
+leaffaces             8267/65536       16534/131072   (12.6%) 
+leafbrushes           6502/65536       13004/131072   ( 9.9%) 
+areas                   12/256            96/2048     ( 4.7%) 
+surfedges            30835/512000     123340/2048000  ( 6.0%) 
+edges                18951/256000      75804/1024000  ( 7.4%) 
+LDR worldlights         46/8192         4600/819200   ( 0.6%) 
+HDR worldlights         46/8192         4600/819200   ( 0.6%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            480/32768        4800/327680   ( 1.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8058/65536       16116/131072   (12.3%) 
+cubemapsamples          19/1024          304/16384    ( 1.9%) 
+overlays                16/512          5632/180224   ( 3.1%) 
+LDR lightdata         [variable]     4349244/0        ( 0.0%) 
+HDR lightdata         [variable]     4349244/0        ( 0.0%) 
+visdata               [variable]     1713657/16777216 (10.2%) 
+entdata               [variable]      429487/393216   (109.2%) VERY FULL!
+LDR ambient table     5148/65536       20592/262144   ( 7.9%) 
+HDR ambient table     5148/65536       20592/262144   ( 7.9%) 
+LDR leaf ambient     28680/65536      803040/1835008  (43.8%) 
+HDR leaf ambient     28680/65536      803040/1835008  (43.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/43938    ( 0.0%) 
+pakfile               [variable]     6000536/0        ( 0.0%) 
+physics               [variable]      586108/4194304  (14.0%) 
+physics terrain       [variable]       30078/1048576  ( 2.9%) 
+
+Level flags = 3
+
+Total triangle count: 11052
+Writing c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+7 minutes, 16 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+"materials/tools/toolsblack_cheap.vtf": cached version doesn't exist
+Material not found!: TOOLS/TOOLSBLACK_CHEAP_NOFOG
+Patching WVT material: maps/mp_coop_a4_finale4/moon/moon_blend_rock_footprints_wvt_patch
+Patching WVT material: maps/mp_coop_a4_finale4/moon/moon_blend_rock_dust01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-11376.0 -653.8 68.8)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_GRATE CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_GRATE 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_GRATE 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_GRATE 
+Candidate brush IDs: Brush 5246: 
+
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 456 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.prt...Building visibility clusters...
+done (1)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (586663 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2335 texinfos to 1392
+Reduced 70 texdatas to 64 (2192 bytes to 1972)
+Writing C:\Program Files (x86)\Steam\steamapps\common\Portal 2\sdk_content\maps\WIP\Chapter 9\mp_coop_a4_finale4.bsp
+
+nummapplanes:     ( 17940 / 65536 )
+nummapbrushes:    (  1429 /  8192 )
+nummapbrushsides: ( 15606 / 65536 )
+num_map_overlays: (    16 /   512 )
+nummodels:        (   163 /  1024 )
+num_entities:     (  1117 / 16384 )
+
+3 seconds elapsed
+
+
+
+24 threads
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.bsp
+reading c:\program files (x86)\steam\steamapps\common\portal 2\sdk_content\maps\wip\chapter 9\mp_coop_a4_finale4.prt
+2907 portalclusters
+10837 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...
