@@ -36,6 +36,7 @@ Ales: Playtesting
 Zach: Playtesting
 spidda: Playtesting
 Jake: Playtesting
+Jaio: Discord Icon
 
 If I missed you, I apologize. 
 Proper credits will be added in due time.
