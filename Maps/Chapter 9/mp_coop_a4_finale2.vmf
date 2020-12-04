@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "20"
+	"mapversion" "22"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -98,7 +98,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "20"
+	"mapversion" "22"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from sp_a4_finale2"
 	"detailmaterial" "detail/detailsprites"
@@ -73587,7 +73587,7 @@ entity
 		{
 			"id" "6371"
 			"plane" "(2168 128.26 -208) (2168 128.26 -336) (2168 1152 -336)"
-			"material" "TILE/WHITE_WALL_TILE003B"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 -1] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -73598,7 +73598,7 @@ entity
 		{
 			"id" "6372"
 			"plane" "(2249 1152 -208) (2249 1152 -336) (2249 128.26 -336)"
-			"material" "TILE/WHITE_WALL_TILE003B"
+			"material" "TOOLS/TOOLSNODRAW_PORTAL"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -73609,7 +73609,7 @@ entity
 		{
 			"id" "6373"
 			"plane" "(2249 128.26 -208) (2249 128.26 -336) (2168 128.26 -336)"
-			"material" "TILE/WHITE_WALL_TILE003B"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -73620,7 +73620,7 @@ entity
 		{
 			"id" "6374"
 			"plane" "(2168 1152 -208) (2168 1152 -336) (2249 1152 -336)"
-			"material" "TILE/WHITE_WALL_TILE003B"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -73631,7 +73631,7 @@ entity
 		{
 			"id" "6375"
 			"plane" "(2168 1152 -336) (2168 128.26 -336) (2249 128.26 -336)"
-			"material" "TILE/WHITE_WALL_TILE003B"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -73642,7 +73642,7 @@ entity
 		{
 			"id" "6376"
 			"plane" "(2168 128.26 -208) (2168 1152 -208) (2249 1152 -208)"
-			"material" "TILE/WHITE_WALL_TILE003B"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -167115,7 +167115,12 @@ entity
 }
 cameras
 {
-	"activecamera" "-1"
+	"activecamera" "0"
+	camera
+	{
+		"position" "[2636.02 700.086 -150.263]"
+		"look" "[-15243.7 2643.87 -562.031]"
+	}
 }
 cordons
 {

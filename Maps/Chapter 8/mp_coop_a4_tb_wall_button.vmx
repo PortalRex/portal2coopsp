@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "19"
+	"mapversion" "26"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -92,7 +92,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "19"
+	"mapversion" "26"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from sp_a4_tb_wall_button"
 	"detailmaterial" "detail/detailsprites"
@@ -34790,80 +34790,83 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
-	solid
+	hidden
 	{
-		"id" "2959"
-		side
+		solid
 		{
-			"id" "2960"
-			"plane" "(592 1088 288) (592 1088 96) (656 1088 96)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2961"
-			"plane" "(656 832 288) (656 832 96) (592 832 96)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2962"
-			"plane" "(592 832 288) (592 832 96) (592 1088 96)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2963"
-			"plane" "(656 1088 288) (656 1088 96) (656 832 96)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2964"
-			"plane" "(656 1088 96) (592 1088 96) (592 832 96)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 0 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2965"
-			"plane" "(656 832 288) (592 832 288) (592 1088 288)"
-			"material" "TOOLS/TOOLSSKIP"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[-1 0 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 222 227"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
+			"id" "2959"
+			side
+			{
+				"id" "2960"
+				"plane" "(592 1088 288) (592 1088 96) (656 1088 96)"
+				"material" "TOOLS/TOOLSSKIP"
+				"uaxis" "[1 0 0 0] 0.25"
+				"vaxis" "[0 0 -1 0] 0.25"
+				"rotation" "0"
+				"lightmapscale" "16"
+				"smoothing_groups" "0"
+			}
+			side
+			{
+				"id" "2961"
+				"plane" "(656 832 288) (656 832 96) (592 832 96)"
+				"material" "TOOLS/TOOLSSKIP"
+				"uaxis" "[-1 0 0 0] 0.25"
+				"vaxis" "[0 0 -1 0] 0.25"
+				"rotation" "0"
+				"lightmapscale" "16"
+				"smoothing_groups" "0"
+			}
+			side
+			{
+				"id" "2962"
+				"plane" "(592 832 288) (592 832 96) (592 1088 96)"
+				"material" "TOOLS/TOOLSSKIP"
+				"uaxis" "[0 -1 0 0] 0.25"
+				"vaxis" "[0 0 -1 0] 0.25"
+				"rotation" "0"
+				"lightmapscale" "16"
+				"smoothing_groups" "0"
+			}
+			side
+			{
+				"id" "2963"
+				"plane" "(656 1088 288) (656 1088 96) (656 832 96)"
+				"material" "TOOLS/TOOLSSKIP"
+				"uaxis" "[0 -1 0 0] 0.25"
+				"vaxis" "[0 0 -1 0] 0.25"
+				"rotation" "0"
+				"lightmapscale" "16"
+				"smoothing_groups" "0"
+			}
+			side
+			{
+				"id" "2964"
+				"plane" "(656 1088 96) (592 1088 96) (592 832 96)"
+				"material" "TOOLS/TOOLSSKIP"
+				"uaxis" "[0 -1 0 0] 0.25"
+				"vaxis" "[-1 0 0 0] 0.25"
+				"rotation" "0"
+				"lightmapscale" "16"
+				"smoothing_groups" "0"
+			}
+			side
+			{
+				"id" "2965"
+				"plane" "(656 832 288) (592 832 288) (592 1088 288)"
+				"material" "TOOLS/TOOLSSKIP"
+				"uaxis" "[0 1 0 0] 0.25"
+				"vaxis" "[-1 0 0 0] 0.25"
+				"rotation" "0"
+				"lightmapscale" "16"
+				"smoothing_groups" "0"
+			}
+			editor
+			{
+				"color" "0 222 227"
+				"visgroupshown" "1"
+				"visgroupautoshown" "1"
+			}
 		}
 	}
 	solid
@@ -37165,7 +37168,7 @@ entity
 {
 	"id" "971323"
 	"classname" "vgui_screen"
-	"angles" "0 180 0"
+	"angles" "0 270 0"
 	"height" "190"
 	"panelname" "mp_progress_sign"
 	"targetname" "vgui_screen_name"
@@ -83433,9 +83436,9 @@ entity
 		"OnTrigger" "sound_warmup_move_chamberPlaySound2.75-1"
 		"OnTrigger" "sound_start_move_chamberStopSound2.75-1"
 		"OnTrigger" "sound_start_move_chamberVolume02.75-1"
-		"OnTrigger" "//sound_start_move_chamberPlaySound0-1"
+		"OnTrigger" "sound_start_move_chamberPlaySound0-1"
 		"OnTrigger" "@gladosRunScriptCodetbwallbutton_chamber_move()0-1"
-		"OnTrigger" "///wall_collapse_sfxPlaySound14.2-1"
+		"OnTrigger" "wall_collapse_sfxPlaySound14.2-1"
 	}
 	"origin" "-376 792 8"
 	editor
@@ -129633,11 +129636,15 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-426.082 1027.72 211.857]"
-		"look" "[-7091.74 1250.4 -207.726]"
+		"position" "[547.513 959.459 269.474]"
+		"look" "[5374.38 5305.59 1840.82]"
 	}
 }
 cordons
 {
 	"active" "0"
+}
+quickhide
+{
+	"count" "1"
 }
