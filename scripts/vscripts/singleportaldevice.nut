@@ -14,6 +14,7 @@ function SinglePortalGunGrabOrange()
 }
 
 // desiredPlayer has to be either "!player_blue" or "!player_orange"
+// The relays that get ent_fire'd must either call LinkSinglePortalGuns or UpgradePortalGuns
 function SinglePortalGunGrab(desiredPlayer)
 {
     if (CheckIfActivatorIsDesiredPlayer(desiredPlayer))
