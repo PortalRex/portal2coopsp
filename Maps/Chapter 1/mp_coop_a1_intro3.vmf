@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "124"
+	"mapversion" "128"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -104,7 +104,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "124"
+	"mapversion" "128"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from sp_a1_intro3"
 	"detailmaterial" "detail/detailsprites"
@@ -9796,83 +9796,80 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
-	hidden
+	solid
 	{
-		solid
+		"id" "438"
+		side
 		{
-			"id" "438"
-			side
-			{
-				"id" "439"
-				"plane" "(160 592 1360) (160 592 976) (160 608 976)"
-				"material" "TOOLS/TOOLSSKIP"
-				"uaxis" "[0 -1 0 0] 0.25"
-				"vaxis" "[0 0 -1 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "440"
-				"plane" "(320 608 1360) (320 608 976) (320 592 976)"
-				"material" "TOOLS/TOOLSSKIP"
-				"uaxis" "[0 -1 0 0] 0.25"
-				"vaxis" "[0 0 -1 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "441"
-				"plane" "(320 592 1360) (320 592 976) (160 592 976)"
-				"material" "TOOLS/TOOLSHINT"
-				"uaxis" "[-1 0 0 0] 0.25"
-				"vaxis" "[0 0 -1 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "442"
-				"plane" "(160 608 1360) (160 608 976) (320 608 976)"
-				"material" "TOOLS/TOOLSSKIP"
-				"uaxis" "[1 0 0 0] 0.25"
-				"vaxis" "[0 0 -1 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "443"
-				"plane" "(160 608 976) (160 592 976) (320 592 976)"
-				"material" "TOOLS/TOOLSSKIP"
-				"uaxis" "[0 -1 0 0] 0.25"
-				"vaxis" "[-1 0 0 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "444"
-				"plane" "(160 592 1360) (160 608 1360) (320 608 1360)"
-				"material" "TOOLS/TOOLSSKIP"
-				"uaxis" "[0 1 0 0] 0.25"
-				"vaxis" "[-1 0 0 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			editor
-			{
-				"color" "0 248 205"
-				"visgroupshown" "1"
-				"visgroupautoshown" "1"
-			}
+			"id" "439"
+			"plane" "(160 592 1360) (160 592 976) (160 608 976)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "440"
+			"plane" "(320 608 1360) (320 608 976) (320 592 976)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "441"
+			"plane" "(320 592 1360) (320 592 976) (160 592 976)"
+			"material" "TOOLS/TOOLSHINT"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "442"
+			"plane" "(160 608 1360) (160 608 976) (320 608 976)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "443"
+			"plane" "(160 608 976) (160 592 976) (320 592 976)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[-1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "444"
+			"plane" "(160 592 1360) (160 608 1360) (320 608 1360)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[-1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 248 205"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
 		}
 	}
 	solid
@@ -69913,27 +69910,6 @@ world
 }
 entity
 {
-	"id" "1911268"
-	"classname" "logic_relay"
-	"spawnflags" "0"
-	"StartDisabled" "0"
-	"targetname" "@sphere_lookat_player_rl1"
-	connections
-	{
-		"OnTrigger" "spherebot_1_top_swivel_1SetTargetEntity!player_orange0-1"
-		"OnTrigger" "spherebot_1_bottom_swivel_1SetTargetEntity!player_orange0-1"
-	}
-	"origin" "354.486 564.203 1112"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1000 7000]"
-	}
-}
-entity
-{
 	"id" "1907996"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
@@ -102391,7 +102367,6 @@ entity
 	connections
 	{
 		"OnStartTouch" "spherebot_train_1_chassis_1MoveToPathNodespherebot_train_1_path_40-1"
-		"OnTrigger" "@sphere_lookat_player_rl1Trigger0-1"
 	}
 	solid
 	{
@@ -103937,6 +103912,8 @@ entity
 	"spawnflags" "32769"
 	"spritescale" "1"
 	"targetname" "spherebot_1_top_swivel_1"
+	"thinkfunction" "TargetThink"
+	"vscripts" "target_player.nut"
 	"yawrange" "360"
 	"yawrate" "120"
 	"yawtolerance" "15"
@@ -104062,6 +104039,8 @@ entity
 	"spawnflags" "32769"
 	"spritescale" "1"
 	"targetname" "spherebot_1_bottom_swivel_1"
+	"thinkfunction" "TargetThink"
+	"vscripts" "target_player.nut"
 	"yawrange" "360"
 	"yawrate" "120"
 	"yawtolerance" "15"
@@ -106248,8 +106227,8 @@ entity
 	"targetname" "@sphere_lookat_player_rl"
 	connections
 	{
-		"OnTrigger" "spherebot_1_top_swivel_1SetTargetEntity!player_blue0-1"
-		"OnTrigger" "spherebot_1_bottom_swivel_1SetTargetEntity!player_blue0-1"
+		"OnTrigger" "spherebot_1_top_swivel_1RunScriptCodeStartTargetingClosestPlayer()0-1"
+		"OnTrigger" "spherebot_1_bottom_swivel_1RunScriptCodeStartTargetingClosestPlayer()0-1"
 	}
 	"origin" "352 576 1168"
 	editor
@@ -168311,15 +168290,11 @@ cameras
 	}
 	camera
 	{
-		"position" "[257.164 491.437 1165.23]"
-		"look" "[257.053 492.284 1164.7]"
+		"position" "[353.244 372.815 1166.9]"
+		"look" "[353.874 373.599 1166.92]"
 	}
 }
 cordons
 {
 	"active" "0"
-}
-quickhide
-{
-	"count" "1"
 }
