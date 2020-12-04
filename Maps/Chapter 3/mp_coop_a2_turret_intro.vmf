@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "17"
+	"mapversion" "19"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -92,7 +92,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "17"
+	"mapversion" "19"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from sp_a2_turret_intro"
 	"detailmaterial" "detail/detailsprites"
@@ -50106,6 +50106,66 @@ world
 }
 entity
 {
+	"id" "949972"
+	"classname" "prop_weighted_cube"
+	"allowfunnel" "0"
+	"angles" "0 270 0"
+	"CubeType" "0"
+	"NewSkins" "0"
+	"PaintPower" "4"
+	"skin" "0"
+	"SkinType" "0"
+	"targetname" "cube_dropper-cube_dropper_box"
+	connections
+	{
+		"OnFizzled" "cube_dropper-cube_dropper_box_spawnerForceSpawn0-1"
+	}
+	"origin" "910 -919 130"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[4000 10500]"
+	}
+}
+entity
+{
+	"id" "949974"
+	"classname" "point_template"
+	"spawnflags" "2"
+	"targetname" "cube_dropper-cube_dropper_box_template"
+	"Template01" "cube_dropper-cube_dropper_box"
+	"origin" "910 -919 66"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[4000 15500]"
+	}
+}
+entity
+{
+	"id" "949976"
+	"classname" "env_entity_maker"
+	"angles" "0 0 0"
+	"EntityTemplate" "cube_dropper-cube_dropper_box_template"
+	"PostSpawnDirection" "0 0 0"
+	"PostSpawnDirectionVariance" "0"
+	"spawnflags" "0"
+	"targetname" "cube_dropper-cube_dropper_box_spawner"
+	"origin" "910 -919 90"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[4000 16000]"
+	}
+}
+entity
+{
 	"id" "948275"
 	"classname" "logic_script"
 	"targetname" "transition_script"
@@ -55308,6 +55368,11 @@ entity
 	"allowfunnel" "1"
 	"angles" "0 30 0"
 	"PaintPower" "4"
+	"targetname" "companion_cube"
+	connections
+	{
+		"OnFizzled" "cube_dropper-cube_dropper_box_spawnerForceSpawn0-1"
+	}
 	"origin" "896 -960 19.0335"
 	editor
 	{

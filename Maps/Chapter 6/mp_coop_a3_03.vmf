@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "16"
+	"mapversion" "17"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -44,7 +44,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "16"
+	"mapversion" "17"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from sp_a3_03"
 	"detailmaterial" "detail/detailsprites"
@@ -61379,7 +61379,7 @@ entity
 		{
 			"id" "4485"
 			"plane" "(-6206 576 -4480) (-6206 576 -4832) (-6206 832 -4832)"
-			"material" "DEV/DEV_WINDOWPORTAL"
+			"material" "GLASS/GLASSWINDOW_FROSTED_BREAK001A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -61390,7 +61390,7 @@ entity
 		{
 			"id" "4486"
 			"plane" "(-6202 832 -4480) (-6202 832 -4832) (-6202 576 -4832)"
-			"material" "DEV/DEV_WINDOWPORTAL"
+			"material" "GLASS/GLASSWINDOW_FROSTED_BREAK001A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -61401,7 +61401,7 @@ entity
 		{
 			"id" "4487"
 			"plane" "(-6202 576 -4480) (-6202 576 -4832) (-6206 576 -4832)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "GLASS/GLASSWINDOW_FROSTED_BREAK001A"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -61412,7 +61412,7 @@ entity
 		{
 			"id" "4488"
 			"plane" "(-6206 832 -4480) (-6206 832 -4832) (-6202 832 -4832)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "GLASS/GLASSWINDOW_FROSTED_BREAK001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -61423,7 +61423,7 @@ entity
 		{
 			"id" "4489"
 			"plane" "(-6206 832 -4832) (-6206 576 -4832) (-6202 576 -4832)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "GLASS/GLASSWINDOW_FROSTED_BREAK001A"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -61434,7 +61434,7 @@ entity
 		{
 			"id" "4490"
 			"plane" "(-6206 576 -4480) (-6206 832 -4480) (-6202 832 -4480)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "GLASS/GLASSWINDOW_FROSTED_BREAK001A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -61455,7 +61455,7 @@ entity
 		{
 			"id" "4492"
 			"plane" "(-6206 832 -4480) (-6206 832 -4576) (-6206 960 -4576)"
-			"material" "DEV/DEV_WINDOWPORTAL"
+			"material" "GLASS/GLASSWINDOW_FROSTED_BREAK001A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -61466,7 +61466,7 @@ entity
 		{
 			"id" "4493"
 			"plane" "(-6202 960 -4480) (-6202 960 -4576) (-6202 832 -4576)"
-			"material" "DEV/DEV_WINDOWPORTAL"
+			"material" "GLASS/GLASSWINDOW_FROSTED_BREAK001A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -61477,7 +61477,7 @@ entity
 		{
 			"id" "4494"
 			"plane" "(-6202 832 -4480) (-6202 832 -4576) (-6206 832 -4576)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "GLASS/GLASSWINDOW_FROSTED_BREAK001A"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -61488,7 +61488,7 @@ entity
 		{
 			"id" "4495"
 			"plane" "(-6206 960 -4480) (-6206 960 -4576) (-6202 960 -4576)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "GLASS/GLASSWINDOW_FROSTED_BREAK001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -61499,7 +61499,7 @@ entity
 		{
 			"id" "4496"
 			"plane" "(-6206 960 -4576) (-6206 832 -4576) (-6202 832 -4576)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "GLASS/GLASSWINDOW_FROSTED_BREAK001A"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -61510,7 +61510,7 @@ entity
 		{
 			"id" "4497"
 			"plane" "(-6206 832 -4480) (-6206 960 -4480) (-6202 960 -4480)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "GLASS/GLASSWINDOW_FROSTED_BREAK001A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -61531,7 +61531,7 @@ entity
 		{
 			"id" "4499"
 			"plane" "(-6206 960 -4480) (-6206 960 -4832) (-6206 1088 -4832)"
-			"material" "DEV/DEV_WINDOWPORTAL"
+			"material" "GLASS/GLASSWINDOW_FROSTED_BREAK001A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -61542,7 +61542,7 @@ entity
 		{
 			"id" "4500"
 			"plane" "(-6202 1088 -4480) (-6202 1088 -4832) (-6202 960 -4832)"
-			"material" "DEV/DEV_WINDOWPORTAL"
+			"material" "GLASS/GLASSWINDOW_FROSTED_BREAK001A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -61553,7 +61553,7 @@ entity
 		{
 			"id" "4501"
 			"plane" "(-6202 960 -4480) (-6202 960 -4832) (-6206 960 -4832)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "GLASS/GLASSWINDOW_FROSTED_BREAK001A"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -61564,7 +61564,7 @@ entity
 		{
 			"id" "4502"
 			"plane" "(-6206 1088 -4480) (-6206 1088 -4832) (-6202 1088 -4832)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "GLASS/GLASSWINDOW_FROSTED_BREAK001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -61575,7 +61575,7 @@ entity
 		{
 			"id" "4503"
 			"plane" "(-6206 1088 -4832) (-6206 960 -4832) (-6202 960 -4832)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "GLASS/GLASSWINDOW_FROSTED_BREAK001A"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -61586,7 +61586,7 @@ entity
 		{
 			"id" "4504"
 			"plane" "(-6206 960 -4480) (-6206 1088 -4480) (-6202 1088 -4480)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "GLASS/GLASSWINDOW_FROSTED_BREAK001A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -167482,8 +167482,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-3608.04 1424.18 -2478.43]"
-		"look" "[-3861.82 1504.68 -2487.72]"
+		"position" "[-6405.45 915.053 -4503.58]"
+		"look" "[-6163.24 970.082 -4599.91]"
 	}
 }
 cordons

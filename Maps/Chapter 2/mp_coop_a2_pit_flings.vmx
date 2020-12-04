@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "12"
+	"mapversion" "21"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -128,7 +128,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "12"
+	"mapversion" "21"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from sp_a2_pit_flings"
 	"detailmaterial" "detail/detailsprites"
@@ -54500,6 +54500,21 @@ world
 }
 entity
 {
+	"id" "1019220"
+	"classname" "logic_branch"
+	"InitialValue" "0"
+	"targetname" "red_in_pit_branch"
+	"origin" "412 -48 -472.157"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
 	"id" "1016571"
 	"classname" "light_spot"
 	"_cone" "80"
@@ -82051,7 +82066,7 @@ entity
 {
 	"id" "92901"
 	"classname" "logic_branch"
-	"targetname" "player_in_pit_branch"
+	"targetname" "blue_in_pit_branch"
 	"origin" "439 -86.8797 -469.875"
 	editor
 	{
@@ -82064,15 +82079,18 @@ entity
 entity
 {
 	"id" "92891"
-	"classname" "trigger_multiple"
+	"classname" "trigger_playerteam"
 	"origin" "32 -208 -640"
 	"spawnflags" "4097"
 	"StartDisabled" "0"
-	"wait" "1"
+	"target_team" "0"
+	"trigger_once" "0"
 	connections
 	{
-		"OnStartTouch" "player_in_pit_branchSetValue10-1"
-		"OnEndTouch" "player_in_pit_branchSetValue00-1"
+		"OnStartTouchBluePlayer" "blue_in_pit_branchSetValue10-1"
+		"OnEndTouchOrangePlayer" "red_in_pit_branchSetValue00-1"
+		"OnStartTouchOrangePlayer" "red_in_pit_branchSetValue10-1"
+		"OnEndTouchBluePlayer" "blue_in_pit_branchSetValue00-1"
 	}
 	solid
 	{
@@ -83157,10 +83175,11 @@ entity
 {
 	"id" "92968"
 	"classname" "logic_branch_listener"
-	"Branch01" "player_in_pit_branch"
+	"Branch01" "blue_in_pit_branch"
 	"Branch02" "box_out_of_pit_branch"
 	"Branch03" "portals_inside_pit_branch"
 	"Branch04" "no_portal_near_exit"
+	"Branch05" "red_in_pit_branch"
 	"targetname" "spawn_new_cube_listener"
 	connections
 	{
@@ -89108,7 +89127,7 @@ entity
 {
 	"id" "93835"
 	"classname" "func_portal_detector"
-	"CheckAllIDs" "0"
+	"CheckAllIDs" "1"
 	"LinkageGroupID" "0"
 	"spawnflags" "0"
 	connections
@@ -131939,8 +131958,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[-924.15 939.079 100.052]"
-		"look" "[-855.413 928.925 112.053]"
+		"position" "[454.388 -460.68 -71.8875]"
+		"look" "[519.192 -459.776 -99.6651]"
 	}
 }
 cordons

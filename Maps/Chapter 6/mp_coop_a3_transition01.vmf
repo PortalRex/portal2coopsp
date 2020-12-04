@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "40"
+	"mapversion" "41"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -44,7 +44,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "40"
+	"mapversion" "41"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from sp_a3_transition01"
 	"detailmaterial" "detail/detailsprites"
@@ -71961,7 +71961,7 @@ entity
 {
 	"id" "2349209"
 	"classname" "info_coop_spawn"
-	"angles" "0 180 0"
+	"angles" "0 0 0"
 	"Enabled" "1"
 	"ForceGunOnSpawn" "0"
 	"StartingTeam" "3"
@@ -71979,7 +71979,7 @@ entity
 {
 	"id" "2349211"
 	"classname" "info_coop_spawn"
-	"angles" "0 180 0"
+	"angles" "0 0 0"
 	"Enabled" "1"
 	"ForceGunOnSpawn" "0"
 	"StartingTeam" "2"
@@ -179989,8 +179989,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-3227.02 -145.737 -4529]"
-		"look" "[-23652.2 8131.45 -2464.88]"
+		"position" "[12663.8 3197.35 3193.45]"
+		"look" "[-30957.3 4063.96 1669.87]"
 	}
 }
 cordons

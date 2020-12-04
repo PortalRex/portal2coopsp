@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "33"
+	"mapversion" "35"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -92,7 +92,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "33"
+	"mapversion" "35"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from sp_a4_tb_catch"
 	"detailmaterial" "detail/detailsprites"
@@ -357,9 +357,9 @@ world
 		{
 			"id" "19304"
 			"plane" "(512 1248 -160) (512 -1186 -160) (512 -1186 -4772)"
-			"material" "ANIM_WP/FRAMEWORK/BACKPANELS_CHEAP"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "METAL/BLACK_WALL_METAL_002A"
+			"uaxis" "[0 1 0 -896] 0.25"
+			"vaxis" "[0 0 -1 -128] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
