@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "8"
+	"mapversion" "17"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -74,7 +74,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "8"
+	"mapversion" "17"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from sp_a2_bts4"
 	"detailmaterial" "detail/detailsprites"
@@ -83486,7 +83486,7 @@ entity
 {
 	"id" "566372"
 	"classname" "npc_personality_core"
-	"angles" "0 270 -90"
+	"angles" "0 90 180"
 	"disablereceiveshadows" "0"
 	"DontUseSpeechSemaphore" "0"
 	"hintlimiting" "0"
@@ -84684,13 +84684,13 @@ entity
 	"PlayerActorLOS" "2"
 	"PlayerBlockingActor" "2"
 	"PlayerInVehicle" "2"
-	"PlayerTargetFOV" "-180"
+	"PlayerTargetFOV" "0"
 	"PlayerTargetLOS" "2"
 	"RequiredTime" ".4"
 	"ScriptStatus" "2"
 	"spawnflags" "0"
 	"StartDisabled" "1"
-	"target" "wheatley_dont_watch_aisc_target"
+	"target" "//wheatley_dont_watch_aisc_target"
 	"targetname" "@wheatley_dont_watch_aisc"
 	connections
 	{
@@ -85468,21 +85468,6 @@ entity
 }
 entity
 {
-	"id" "736299"
-	"classname" "logic_achievement"
-	"achievementname" "ACH.NOT_THE_DROID"
-	"targetname" "turret_scanner_achievement"
-	"origin" "1495 -7347.43 6710.33"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[3500 -10268]"
-	}
-}
-entity
-{
 	"id" "600193"
 	"classname" "trigger_once"
 	"origin" "1264 -6623.99 6945.5"
@@ -85880,6 +85865,7 @@ entity
 	"id" "705262"
 	"classname" "info_target"
 	"angles" "0 0 0"
+	"spawnflags" "0"
 	"targetname" "lookat_doorwindow_target_1"
 	"origin" "1432.31 -7256 6755.89"
 	editor
@@ -88374,8 +88360,8 @@ entity
 	"targetname" "lookat_player_rl"
 	connections
 	{
-		"OnTrigger" "spherebot_1_top_swivel_1SetTargetEntity!player0-1"
-		"OnTrigger" "spherebot_1_bottom_swivel_1SetTargetEntity!player0-1"
+		"OnTrigger" "spherebot_1_top_swivel_1RunScriptCodeStartTargetingClosestPlayer()0-1"
+		"OnTrigger" "spherebot_1_bottom_swivel_1RunScriptCodeStartTargetingClosestPlayer()0-1"
 	}
 	"origin" "664 -7542.17 6857.64"
 	editor
@@ -88705,10 +88691,11 @@ entity
 	"StartDisabled" "0"
 	connections
 	{
-		"OnTrigger" "light_05TurnOn0-1"
 		"OnTrigger" "@disable_dummyshoot_rlTrigger0-1"
 		"OnStartTouch" "playerproxyForceVMGrabController0-1"
 		"OnTrigger" "//prop_portalFizzle0-1"
+		"OnTrigger" "lookat_player_rlTrigger0-1"
+		"OnTrigger" "light_05TurnOn0-1"
 	}
 	solid
 	{
@@ -90312,6 +90299,8 @@ entity
 	"spawnflags" "32769"
 	"spritescale" "1"
 	"targetname" "spherebot_1_top_swivel_1"
+	"thinkfunction" "TargetThink"
+	"vscripts" "target_player.nut"
 	"yawrange" "360"
 	"yawrate" "500"
 	"yawtolerance" "15"
@@ -91061,6 +91050,8 @@ entity
 	"spawnflags" "32769"
 	"spritescale" "1"
 	"targetname" "spherebot_1_bottom_swivel_1"
+	"thinkfunction" "TargetThink"
+	"vscripts" "target_player.nut"
 	"yawrange" "360"
 	"yawrate" "300"
 	"yawtolerance" "15"
@@ -138616,17 +138607,7 @@ entity
 }
 cameras
 {
-	"activecamera" "0"
-	camera
-	{
-		"position" "[-2037.33 -7408.96 6797.88]"
-		"look" "[-2149.68 -7491.78 7024.76]"
-	}
-	camera
-	{
-		"position" "[2864.57 -4927.17 6741.24]"
-		"look" "[2611.89 -4931.58 6657]"
-	}
+	"activecamera" "-1"
 }
 cordons
 {

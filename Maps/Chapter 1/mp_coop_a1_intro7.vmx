@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "35"
+	"mapversion" "43"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -122,7 +122,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "35"
+	"mapversion" "43"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from sp_a1_intro7"
 	"detailmaterial" "detail/detailsprites"
@@ -2049,8 +2049,8 @@ world
 			"id" "10464"
 			"plane" "(1024 -128 1344) (960 -128 1344) (960 -64 1344)"
 			"material" "METAL/BLACK_FLOOR_METAL_001C_TEAMFLOOR"
-			"uaxis" "[1 0 0 -256] 0.25"
-			"vaxis" "[0 -1 0 256] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 -125] 0.25"
 			"rotation" "0"
 			"lightmapscale" "4"
 			"smoothing_groups" "0"
@@ -2126,7 +2126,7 @@ world
 			"plane" "(832 -128 1344) (768 -128 1344) (768 -64 1344)"
 			"material" "METAL/BLACK_FLOOR_METAL_001C_TEAMFLOOR"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 -1 0 -125] 0.25"
 			"rotation" "0"
 			"lightmapscale" "4"
 			"smoothing_groups" "0"
@@ -59487,7 +59487,7 @@ entity
 {
 	"id" "1834930"
 	"classname" "vgui_screen"
-	"angles" "0 180 0"
+	"angles" "0 270 0"
 	"height" "190"
 	"panelname" "mp_progress_sign"
 	"targetname" "vgui_screen_name"
@@ -60051,7 +60051,7 @@ entity
 {
 	"id" "694636"
 	"classname" "npc_personality_core"
-	"angles" "0 270 -90"
+	"angles" "0 90 -180"
 	"disablereceiveshadows" "0"
 	"DontUseSpeechSemaphore" "0"
 	"hintlimiting" "0"
@@ -60236,6 +60236,8 @@ entity
 	"spawnflags" "32769"
 	"spritescale" "1"
 	"targetname" "spherebot_1_top_swivel_1"
+	"thinkfunction" "TargetThink"
+	"vscripts" "target_player.nut"
 	"yawrange" "360"
 	"yawrate" "60"
 	"yawtolerance" "15"
@@ -60361,6 +60363,8 @@ entity
 	"spawnflags" "32769"
 	"spritescale" "1"
 	"targetname" "spherebot_1_bottom_swivel_1"
+	"thinkfunction" "TargetThink"
+	"vscripts" "target_player.nut"
 	"yawrange" "360"
 	"yawrate" "30"
 	"yawtolerance" "15"
@@ -60921,8 +60925,8 @@ entity
 	"targetname" "spherebot_1_lookat_player_rl"
 	connections
 	{
-		"OnTrigger" "spherebot_1_top_swivel_1SetTargetEntity!player_blue0-1"
-		"OnTrigger" "spherebot_1_bottom_swivel_1SetTargetEntity!player_blue0-1"
+		"OnTrigger" "spherebot_1_top_swivel_1RunScriptCodeStartTargetingClosestPlayer()0-1"
+		"OnTrigger" "spherebot_1_bottom_swivel_1RunScriptCodeStartTargetingClosestPlayer()0-1"
 	}
 	"origin" "-324 -484 1560"
 	editor
@@ -62467,7 +62471,6 @@ entity
 	connections
 	{
 		"OnMapSpawn" "@plug_close_rlTrigger0-1"
-		"OnMapSpawn" "spherebot_1_lookat_player_rlTrigger0-1"
 	}
 	"origin" "-872 -526 1300"
 	editor
@@ -66651,6 +66654,7 @@ entity
 	{
 		"OnStartTouch" "relay_portab_spawnTrigger0.5-1"
 		"OnStartTouch" "ceiling_drips_2_particlesStart0-1"
+		"OnTrigger" "spherebot_1_lookat_player_rlTrigger0-1"
 	}
 	solid
 	{

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "7"
+	"mapversion" "12"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -110,7 +110,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "7"
+	"mapversion" "12"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from sp_a2_bridge_the_gap"
 	"detailmaterial" "detail/detailsprites"
@@ -83705,6 +83705,8 @@ entity
 	"spawnflags" "32769"
 	"spritescale" "1"
 	"targetname" "@sphere_top_swivel_1"
+	"thinkfunction" "TargetThink"
+	"vscripts" "target_player.nut"
 	"yawrange" "360"
 	"yawrate" "600"
 	"yawtolerance" "15"
@@ -84037,6 +84039,7 @@ entity
 	{
 		"OnStartTouch" "tilex3_wall_repair-proxyOnProxyRelay10-1"
 		"OnStartTouch" "hallway_wall_repair_clip_brushKill10-1"
+		"OnTrigger" "@sphere_lookat_player_rlTrigger0-1"
 	}
 	solid
 	{
@@ -84199,7 +84202,7 @@ entity
 {
 	"id" "55381"
 	"classname" "npc_personality_core"
-	"angles" "0 270 -90"
+	"angles" "0 90 180"
 	"CoreType" "0"
 	"disablereceiveshadows" "0"
 	"disableshadowdepth" "0"
@@ -84237,8 +84240,8 @@ entity
 	"targetname" "@sphere_lookat_player_rl"
 	connections
 	{
-		"OnTrigger" "@sphere_top_swivel_1SetTargetEntity!player0-1"
-		"OnTrigger" "@sphere_bottom_swivel_1SetTargetEntity!player0-1"
+		"OnTrigger" "@sphere_top_swivel_1RunScriptCodeStartTargetingClosestPlayer()0-1"
+		"OnTrigger" "@sphere_bottom_swivel_1RunScriptCodeStartTargetingClosestPlayer()0-1"
 	}
 	"origin" "-832 -640 1368.85"
 	editor
@@ -85405,6 +85408,8 @@ entity
 	"spawnflags" "32769"
 	"spritescale" "1"
 	"targetname" "@sphere_bottom_swivel_1"
+	"thinkfunction" "TargetThink"
+	"vscripts" "target_player.nut"
 	"yawrange" "360"
 	"yawrate" "300"
 	"yawtolerance" "15"
@@ -142009,8 +142014,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[92.865 1848.57 965.804]"
-		"look" "[355.313 1837.57 1010.08]"
+		"position" "[-913.589 -856.732 1384.59]"
+		"look" "[-933.27 -1112.55 1312.96]"
 	}
 }
 cordons
