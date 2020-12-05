@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "20"
+	"mapversion" "21"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -134,7 +134,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "20"
+	"mapversion" "21"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from sp_a4_laser_platform"
 	"detailmaterial" "detail/detailsprites"
@@ -2289,8 +2289,8 @@ world
 			"id" "10440"
 			"plane" "(-1184 -1121 0) (-1120 -1121 0) (-1120 -1185 0)"
 			"material" "METAL/BLACK_FLOOR_METAL_001C_TEAMFLOOR"
-			"uaxis" "[1 0 0 -256] 0.25"
-			"vaxis" "[0 -1 0 256] 0.25"
+			"uaxis" "[1 0 0 -129] 0.25"
+			"vaxis" "[0 -1 0 251] 0.25"
 			"rotation" "0"
 			"lightmapscale" "4"
 			"smoothing_groups" "0"
@@ -2365,8 +2365,8 @@ world
 			"id" "10446"
 			"plane" "(-992 -1121 0) (-928 -1121 0) (-928 -1185 0)"
 			"material" "METAL/BLACK_FLOOR_METAL_001C_TEAMFLOOR"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[1 0 0 -128] 0.25"
+			"vaxis" "[0 -1 0 250] 0.25"
 			"rotation" "0"
 			"lightmapscale" "4"
 			"smoothing_groups" "0"

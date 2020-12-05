@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "26"
+	"mapversion" "28"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -92,7 +92,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "26"
+	"mapversion" "28"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from sp_a4_tb_wall_button"
 	"detailmaterial" "detail/detailsprites"
@@ -2019,8 +2019,8 @@ world
 			"id" "11456"
 			"plane" "(864 1984 0) (800 1984 0) (800 2048 0)"
 			"material" "METAL/BLACK_FLOOR_METAL_001C_TEAMFLOOR"
-			"uaxis" "[1 0 0 -256] 0.25"
-			"vaxis" "[0 -1 0 256] 0.25"
+			"uaxis" "[1 0 0 126] 0.25"
+			"vaxis" "[0 -1 0 129] 0.25"
 			"rotation" "0"
 			"lightmapscale" "4"
 			"smoothing_groups" "0"
@@ -2095,8 +2095,8 @@ world
 			"id" "11462"
 			"plane" "(672 1984 0) (608 1984 0) (608 2048 0)"
 			"material" "METAL/BLACK_FLOOR_METAL_001C_TEAMFLOOR"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
+			"uaxis" "[1 0 0 128] 0.25"
+			"vaxis" "[0 -1 0 129] 0.25"
 			"rotation" "0"
 			"lightmapscale" "4"
 			"smoothing_groups" "0"
@@ -8501,9 +8501,9 @@ world
 		{
 			"id" "349"
 			"plane" "(640 1024 384) (640 1024 256) (608 1024 256)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "METAL/BLACK_WALL_METAL_002B"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -512] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -26057,9 +26057,9 @@ world
 		{
 			"id" "1966"
 			"plane" "(616 992 288) (616 992 256) (616 1024 256)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "METAL/BLACK_WALL_METAL_002B"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -512] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -26242,7 +26242,7 @@ world
 		{
 			"id" "1983"
 			"plane" "(608 992 288) (608 992 256) (640 992 256)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "METAL/BLACK_WALL_METAL_002B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -129636,8 +129636,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[547.513 959.459 269.474]"
-		"look" "[5374.38 5305.59 1840.82]"
+		"position" "[177.581 923.572 210.119]"
+		"look" "[-6443.71 1108.42 -673.694]"
 	}
 }
 cordons
