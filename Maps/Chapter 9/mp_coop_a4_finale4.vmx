@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "34"
+	"mapversion" "43"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -224,7 +224,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "34"
+	"mapversion" "43"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from sp_a4_finale4"
 	"detailmaterial" "detail/detailsprites"
@@ -66157,6 +66157,102 @@ world
 }
 entity
 {
+	"id" "2028097"
+	"classname" "trigger_once"
+	"origin" "19.5 362 751.5"
+	"spawnflags" "4097"
+	"StartDisabled" "1"
+	"targetname" "restart_level_rl"
+	connections
+	{
+		"OnTrigger" "restart_level_cmdCommandchangelevel mp_coop_a4_finale44-1"
+	}
+	solid
+	{
+		"id" "2028094"
+		side
+		{
+			"id" "10555"
+			"plane" "(-1404 1631 1505) (1443 1631 1505) (1443 -907 1505)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "10554"
+			"plane" "(-1404 -907 -2) (1443 -907 -2) (1443 1631 -2)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "10553"
+			"plane" "(-1404 1631 1505) (-1404 -907 1505) (-1404 -907 -2)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "10552"
+			"plane" "(1443 1631 -2) (1443 -907 -2) (1443 -907 1505)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "10551"
+			"plane" "(1443 1631 1505) (-1404 1631 1505) (-1404 1631 -2)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "10550"
+			"plane" "(1443 -907 -2) (-1404 -907 -2) (-1404 -907 1505)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
 	"id" "2020798"
 	"classname" "point_clientcommand"
 	"targetname" "restart_level_cmd"
@@ -66652,6 +66748,7 @@ entity
 	connections
 	{
 		"OnAllTrue" "breaker_socket_buttonUnlock0-1"
+		"OnMixed" "breaker_socket_buttonLock0-1"
 	}
 	"origin" "95.7872 -119.337 -1319.25"
 	editor
@@ -69336,8 +69433,8 @@ entity
 	connections
 	{
 		"OnTrigger" "fade_neurotoxin_deathFade0-1"
-		"OnTrigger" "fail_hurt_triggerEnable4-1"
-		"OnTrigger" "restart_level_cmdCommand"restart_level"5-1"
+		"OnTrigger" "//fail_hurt_triggerEnable4-1"
+		"OnTrigger" "restart_level_rlEnable0-1"
 	}
 	"origin" "352 -96 336"
 	editor

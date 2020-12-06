@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "12"
+	"mapversion" "13"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -110,7 +110,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "12"
+	"mapversion" "13"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from sp_a2_bridge_the_gap"
 	"detailmaterial" "detail/detailsprites"
@@ -83803,6 +83803,12 @@ entity
 	"spawnflags" "0"
 	"target" "spherebot_train_1_path_15"
 	"targetname" "spherebot_train_1_path_16"
+	connections
+	{
+		"OnPass" "@sphere_bottom_swivel_1RunScriptCodeClearTargets()0-1"
+		"OnPass" "@sphere_top_swivel_1RunScriptCodeClearTargets()0-1"
+		"OnPass" "@sphere_lookat_player_rlTrigger0.1-1"
+	}
 	"origin" "-1152 -834 1400"
 	editor
 	{
@@ -142014,8 +142020,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-913.589 -856.732 1384.59]"
-		"look" "[-933.27 -1112.55 1312.96]"
+		"position" "[-1144.37 -769.204 1382.89]"
+		"look" "[-1219.68 -1018.65 1438.28]"
 	}
 }
 cordons

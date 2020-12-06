@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "20"
+	"mapversion" "26"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -206,7 +206,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "20"
+	"mapversion" "26"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from sp_a2_bts3"
 	"detailmaterial" "detail/detailsprites"
@@ -67536,11 +67536,13 @@ entity
 	connections
 	{
 		"OnStartTouch" "spherebot_train_1_chassis_1MoveToPathNodespherebot_entry_1_path_100-1"
-		"OnStartTouch" "lookat_player_rlTrigger01"
+		"OnStartTouch" "lookat_player_rlTrigger0.11"
 		"OnTrigger" "@sphereRunScriptCodeWheatleyTransitionGladosAngry()21"
 		"OnTrigger" "entry_canyon_global_impact_soundPlaySound01"
 		"OnTrigger" "entry_canyon_shakeStartShake01"
 		"OnTrigger" "lamp_impactExplode0-1"
+		"OnStartTouch" "spherebot_1_top_swivel_1RunScriptCodeClearTargets()01"
+		"OnStartTouch" "spherebot_1_bottom_swivel_1RunScriptCodeClearTargets()01"
 	}
 	solid
 	{
@@ -68023,10 +68025,12 @@ entity
 	"StartDisabled" "0"
 	connections
 	{
-		"OnStartTouch" "lookat_player_rlTrigger0-1"
+		"OnStartTouch" "lookat_player_rlTrigger0.11"
 		"OnStartTouch" "spherebot_train_1_chassis_1MoveToPathNodespherebot_train_1_panel_ride_path_30-1"
 		"OnStartTouch" "@sphereRunScriptCodeWheatleyPanelDropNiceJob()01"
 		"OnTrigger" "@music_sp_a2_bts3_b2PlaySound0-1"
+		"OnStartTouch" "spherebot_1_top_swivel_1RunScriptCodeClearTargets()01"
+		"OnStartTouch" "spherebot_1_bottom_swivel_1RunScriptCodeClearTargets()01"
 	}
 	solid
 	{
@@ -70048,8 +70052,10 @@ entity
 		"OnStartTouch" "spherebot_train_1_chassis_1MoveToPathNodespherebot_train_1_path_801"
 		"OnStartTouch" "lookat_window_rlTrigger0-1"
 		"OnTrigger" "@sphereRunScriptCodeWheatleyMazePortalExit()0-1"
-		"OnEndTouch" "lookat_player_rlTrigger0-1"
+		"OnEndTouch" "lookat_player_rlTrigger0.1-1"
 		"OnTrigger" "start_end_horizontal_templatesTrigger01"
+		"OnEndTouch" "spherebot_1_top_swivel_1RunScriptCodeClearTargets()01"
+		"OnEndTouch" "spherebot_1_bottom_swivel_1RunScriptCodeClearTargets()01"
 	}
 	solid
 	{
@@ -70855,8 +70861,10 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouch" "lookat_player_rlTrigger0-1"
+		"OnStartTouch" "lookat_player_rlTrigger0.11"
 		"OnStartTouch" "spherebot_train_1_chassis_1MoveToPathNodespherebot_train_1_path_pre_140-1"
+		"OnStartTouch" "spherebot_1_top_swivel_1RunScriptCodeClearTargets()01"
+		"OnStartTouch" "spherebot_1_bottom_swivel_1RunScriptCodeClearTargets()01"
 	}
 	solid
 	{
@@ -71750,8 +71758,10 @@ entity
 	connections
 	{
 		"OnStartTouch" "spherebot_train_1_chassis_1MoveToPathNodespherebot_train_1_path_start1-1"
-		"OnStartTouch" "lookat_player_rlTrigger0-1"
+		"OnStartTouch" "lookat_player_rlTrigger0.1-1"
 		"OnStartTouch" "lookat_danger_drop_hall_target_rlTrigger3-1"
+		"OnStartTouch" "spherebot_1_top_swivel_1RunScriptCodeClearTargets()01"
+		"OnStartTouch" "spherebot_1_bottom_swivel_1RunScriptCodeClearTargets()01"
 	}
 	solid
 	{
@@ -71911,7 +71921,9 @@ entity
 	connections
 	{
 		"OnStartTouch" "@sphereRunScriptCodeWheatleyGapJumpCaution()01"
-		"OnStartTouch" "lookat_player_rlTrigger0-1"
+		"OnStartTouch" "lookat_player_rlTrigger0.11"
+		"OnStartTouch" "spherebot_1_top_swivel_1RunScriptCodeClearTargets()01"
+		"OnStartTouch" "spherebot_1_bottom_swivel_1RunScriptCodeClearTargets()01"
 	}
 	solid
 	{
@@ -72193,9 +72205,11 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnStartTouch" "lookat_player_rlTrigger0-1"
+		"OnStartTouch" "lookat_player_rlTrigger0.11"
 		"OnStartTouch" "spherebot_train_1_chassis_1MoveToPathNodespherebot_train_1_path_001"
 		"OnStartTouch" "//prop_portalFizzle01"
+		"OnStartTouch" "spherebot_1_top_swivel_1RunScriptCodeClearTargets()01"
+		"OnStartTouch" "spherebot_1_bottom_swivel_1RunScriptCodeClearTargets()01"
 	}
 	solid
 	{
@@ -72499,9 +72513,11 @@ entity
 	connections
 	{
 		"OnTrigger" "@choreo_wheatley_departingTrigger0-1"
-		"OnTrigger" "lookat_player_rlTrigger0-1"
+		"OnTrigger" "lookat_player_rlTrigger0.11"
 		"OnStartTouch" "spherebot_train_1_chassis_1MoveToPathNodespherebot_gap_shoot_train_156-1"
 		"OnTrigger" "//backtrack_fun_preventerActivate0-1"
+		"OnStartTouch" "spherebot_1_top_swivel_1RunScriptCodeClearTargets()01"
+		"OnStartTouch" "spherebot_1_bottom_swivel_1RunScriptCodeClearTargets()01"
 	}
 	solid
 	{
@@ -72748,12 +72764,14 @@ entity
 		"OnStartTouch" "spherebot_train_1_chassis_1MoveToPathNodespherebot_gap_shoot_train_761"
 		"OnStartTouch" "panel_look_triggerDisable01"
 		"OnStartTouch" "lookat_second_walkway_rlTrigger61"
-		"OnStartTouch" "lookat_player_rlTrigger01"
+		"OnStartTouch" "lookat_player_rlTrigger0.11"
 		"OnStartTouch" "lookat_second_walkway_rlEnable5.51"
 		"OnStartTouch" "spherebot_train_1_chassis_1MoveToPathNodespherebot_gap_shoot_train_601"
 		"OnStartTouch" "@sphereRunScriptCodeWheatleyGapShootSecondWall()41"
 		"OnStartTouch" "blindness_backtrack_triggerEnable11"
 		"OnStartTouch" "blindness_detectorEnable0-1"
+		"OnStartTouch" "spherebot_1_bottom_swivel_1RunScriptCodeClearTargets()01"
+		"OnStartTouch" "spherebot_1_top_swivel_1RunScriptCodeClearTargets()01"
 	}
 	solid
 	{
@@ -73132,7 +73150,9 @@ entity
 	"spawnflags" "4097"
 	connections
 	{
-		"OnStartTouch" "lookat_player_rlTrigger0-1"
+		"OnStartTouch" "lookat_player_rlTrigger0.11"
+		"OnStartTouch" "spherebot_1_top_swivel_1RunScriptCodeClearTargets()01"
+		"OnStartTouch" "spherebot_1_bottom_swivel_1RunScriptCodeClearTargets()01"
 	}
 	solid
 	{
@@ -74253,7 +74273,7 @@ entity
 	"spawnflags" "4097"
 	connections
 	{
-		"OnStartTouch" "lookat_player_rlTrigger0-1"
+		"OnStartTouch" "lookat_player_rlTrigger0.11"
 		"OnStartTouch" "spherebot_train_1_chassis_1MoveToPathNodespherebot_gap_shoot_train_81-1"
 		"OnTrigger" "turret_factory_01-proxyOnProxyRelay101"
 		"OnTrigger" "turret_factory_02-proxyOnProxyRelay131"
@@ -74264,6 +74284,8 @@ entity
 		"OnStartTouch" "tube_scanner_room-proxyOnProxyRelay20-1"
 		"OnTrigger" "@gladosRunScriptCodesp_a2_bts3_smellyhumanlovethem()0.5-1"
 		"OnTrigger" "@music_sp_a2_bts3_b4PlaySound0-1"
+		"OnStartTouch" "spherebot_1_top_swivel_1RunScriptCodeClearTargets()01"
+		"OnStartTouch" "spherebot_1_bottom_swivel_1RunScriptCodeClearTargets()01"
 	}
 	solid
 	{
@@ -74357,8 +74379,10 @@ entity
 	"spawnflags" "4097"
 	connections
 	{
-		"OnStartTouch" "lookat_player_rlTrigger0-1"
+		"OnStartTouch" "lookat_player_rlTrigger0.11"
 		"OnStartTouch" "spherebot_train_1_chassis_1MoveToPathNodespherebot_gap_shoot_train_91-1"
+		"OnStartTouch" "spherebot_1_top_swivel_1RunScriptCodeClearTargets()01"
+		"OnStartTouch" "spherebot_1_bottom_swivel_1RunScriptCodeClearTargets()01"
 	}
 	solid
 	{
@@ -74809,7 +74833,9 @@ entity
 	connections
 	{
 		"OnStartTouch" "spherebot_train_1_chassis_1MoveToPathNodespherebot_train_1_path_pre_61-1"
-		"OnStartTouch" "lookat_player_rlTrigger0-1"
+		"OnStartTouch" "lookat_player_rlTrigger0.1-1"
+		"OnStartTouch" "spherebot_1_top_swivel_1RunScriptCodeClearTargets()01"
+		"OnStartTouch" "spherebot_1_bottom_swivel_1RunScriptCodeClearTargets()01"
 	}
 	solid
 	{
@@ -77087,7 +77113,9 @@ entity
 	connections
 	{
 		"OnStartTouch" "spherebot_train_1_chassis_1MoveToPathNodespherebot_train_1_path_60-1"
-		"OnStartTouch" "lookat_player_rlTrigger0-1"
+		"OnStartTouch" "lookat_player_rlTrigger0.11"
+		"OnStartTouch" "spherebot_1_top_swivel_1RunScriptCodeClearTargets()01"
+		"OnStartTouch" "spherebot_1_bottom_swivel_1RunScriptCodeClearTargets()01"
 	}
 	solid
 	{
@@ -77234,7 +77262,7 @@ entity
 		side
 		{
 			"id" "8492"
-			"plane" "(8389 5797 -256) (8389 5797 -320) (8389 5881 -320)"
+			"plane" "(8389 5797 -320) (8389 5881 -320) (8389 5881 -256)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -48] 0.25"
@@ -77245,7 +77273,7 @@ entity
 		side
 		{
 			"id" "8491"
-			"plane" "(8474 5881 -256) (8474 5881 -320) (8474 5797 -320)"
+			"plane" "(8474 5881 -320) (8474 5797 -320) (8474 5797 -256)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -48] 0.25"
@@ -77256,7 +77284,7 @@ entity
 		side
 		{
 			"id" "8490"
-			"plane" "(8474 5797 -256) (8474 5797 -320) (8389 5797 -320)"
+			"plane" "(8474 5797 -320) (8389 5797 -320) (8389 5797 -256)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -48] 0.25"
@@ -77267,7 +77295,7 @@ entity
 		side
 		{
 			"id" "8489"
-			"plane" "(8389 5881 -256) (8389 5881 -320) (8474 5881 -320)"
+			"plane" "(8389 5881 -320) (8474 5881 -320) (8474 5881 -256)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -48] 0.25"
@@ -77278,7 +77306,7 @@ entity
 		side
 		{
 			"id" "8488"
-			"plane" "(8389 5881 -320) (8389 5797 -320) (8474 5797 -320)"
+			"plane" "(8389 5797 -320) (8474 5797 -320) (8474 5881 -320)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -77289,7 +77317,7 @@ entity
 		side
 		{
 			"id" "8487"
-			"plane" "(8389 5797 -256) (8389 5881 -256) (8474 5881 -256)"
+			"plane" "(8389 5881 -256) (8474 5881 -256) (8474 5797 -256)"
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -78123,8 +78151,10 @@ entity
 	connections
 	{
 		"OnStartTouch" "spherebot_train_1_chassis_1MoveToPathNodespherebot_train_1_path_pre_20-1"
-		"OnStartTouch" "lookat_player_rlTrigger0-1"
+		"OnStartTouch" "lookat_player_rlTrigger0.11"
 		"OnStartTouch" "@sphereRunScriptCodeWheatleyDarknessIntro()01"
+		"OnStartTouch" "spherebot_1_top_swivel_1RunScriptCodeClearTargets()01"
+		"OnStartTouch" "spherebot_1_bottom_swivel_1RunScriptCodeClearTargets()01"
 	}
 	solid
 	{
@@ -78882,10 +78912,12 @@ entity
 		"OnTrigger" "entry_canyon_shakeStartShake0-1"
 		"OnTrigger" "entry_canyon_global_impact_soundPlaySound0-1"
 		"OnTrigger" "spherebot_train_1_chassis_1MoveToPathNodespherebot_entry_1_path_101-1"
-		"OnTrigger" "lookat_player_rlTrigger0-1"
+		"OnTrigger" "lookat_player_rlTrigger0.11"
 		"OnTrigger" "@sphereRunScriptCodeWheatleyTransitionStart()1.5-1"
 		"OnTrigger" "lamp_impactExplode0-1"
 		"OnTrigger" "//prop_portalFizzle0-1"
+		"OnStartTouch" "spherebot_1_top_swivel_1RunScriptCodeClearTargets()01"
+		"OnStartTouch" "spherebot_1_bottom_swivel_1RunScriptCodeClearTargets()01"
 	}
 	solid
 	{
@@ -79111,9 +79143,11 @@ entity
 	connections
 	{
 		"OnStartTouch" "spherebot_train_1_chassis_1MoveToPathNodespherebot_train_1_path_pre_170-1"
-		"OnStartTouch" "lookat_player_rlTrigger0-1"
+		"OnStartTouch" "lookat_player_rlTrigger0.11"
 		"OnStartTouch" "@sphereRunScriptCodeWheatleyMachineRoomCompletion()11"
 		"OnStartTouch" "lookat_machine_hall_exit_target_rlTrigger2-1"
+		"OnStartTouch" "spherebot_1_top_swivel_1RunScriptCodeClearTargets()01"
+		"OnStartTouch" "spherebot_1_bottom_swivel_1RunScriptCodeClearTargets()01"
 	}
 	solid
 	{
@@ -79276,12 +79310,14 @@ entity
 	"spawnflags" "4097"
 	connections
 	{
-		"OnStartTouch" "lookat_player_rlTrigger01"
+		"OnStartTouch" "lookat_player_rlTrigger0.11"
 		"OnStartTouch" "spherebot_train_1_chassis_1MoveToPathNodespherebot_gap_shoot_train_30-1"
 		"OnStartTouch" "@sphereDisableFlashlight0-1"
 		"OnStartTouch" "//fizzle_backtrack_triggerActivate0-1"
 		"OnTrigger" "fog_factorySetEndDist35000-1"
 		"OnTrigger" "@music_sp_a2_bts3_b3StopSound0-1"
+		"OnStartTouch" "spherebot_1_top_swivel_1RunScriptCodeClearTargets()01"
+		"OnStartTouch" "spherebot_1_bottom_swivel_1RunScriptCodeClearTargets()01"
 	}
 	solid
 	{
@@ -79396,7 +79432,9 @@ entity
 	connections
 	{
 		"OnStartTouch" "@sphereRunScriptCodeWheatleyMachineRoomCaution()01"
-		"OnStartTouch" "lookat_player_rlTrigger0-1"
+		"OnStartTouch" "lookat_player_rlTrigger0.11"
+		"OnStartTouch" "spherebot_1_top_swivel_1RunScriptCodeClearTargets()01"
+		"OnStartTouch" "spherebot_1_bottom_swivel_1RunScriptCodeClearTargets()01"
 	}
 	solid
 	{
@@ -79815,7 +79853,9 @@ entity
 		"OnStartTouch" "spherebot_train_1_chassis_1MoveToPathNodespherebot_train_1_path_90-1"
 		"OnStartTouch" "lookat_walkway_rlTrigger0-1"
 		"OnStartTouch" "@sphereRunScriptCodeWheatleyMazeCommentary()01"
-		"OnEndTouch" "lookat_player_rlTrigger0-1"
+		"OnEndTouch" "lookat_player_rlTrigger0.1-1"
+		"OnEndTouch" "spherebot_1_top_swivel_1RunScriptCodeClearTargets()01"
+		"OnEndTouch" "spherebot_1_bottom_swivel_1RunScriptCodeClearTargets()01"
 	}
 	solid
 	{
@@ -79936,7 +79976,9 @@ entity
 	connections
 	{
 		"OnStartTouch" "spherebot_train_1_chassis_1MoveToPathNodespherebot_train_path_100-1"
-		"OnStartTouch" "lookat_player_rlTrigger0-1"
+		"OnStartTouch" "lookat_player_rlTrigger0.11"
+		"OnStartTouch" "spherebot_1_top_swivel_1RunScriptCodeClearTargets()01"
+		"OnStartTouch" "spherebot_1_bottom_swivel_1RunScriptCodeClearTargets()01"
 	}
 	solid
 	{
@@ -82527,7 +82569,9 @@ entity
 	{
 		"OnStartTouch" "spherebot_train_1_chassis_1MoveToPathNodespherebot_train_1_path_pre_41-1"
 		"OnStartTouch" "lookat_pipehall_target_rlTrigger1-1"
-		"OnStartTouch" "lookat_player_rlTrigger0-1"
+		"OnStartTouch" "lookat_player_rlTrigger0.11"
+		"OnStartTouch" "spherebot_1_top_swivel_1RunScriptCodeClearTargets()01"
+		"OnStartTouch" "spherebot_1_bottom_swivel_1RunScriptCodeClearTargets()01"
 	}
 	solid
 	{

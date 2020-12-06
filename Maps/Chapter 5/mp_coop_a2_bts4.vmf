@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "18"
+	"mapversion" "32"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -65,16 +65,16 @@ visgroups
 }
 viewsettings
 {
-	"bSnapToGrid" "1"
+	"bSnapToGrid" "0"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "4"
+	"nGridSpacing" "1"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "18"
+	"mapversion" "32"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from sp_a2_bts4"
 	"detailmaterial" "detail/detailsprites"
@@ -66519,6 +66519,16 @@ world
 	}
 	group
 	{
+		"id" "763779"
+		editor
+		{
+			"color" "245 190 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
 		"id" "753046"
 		editor
 		{
@@ -75249,7 +75259,9 @@ entity
 	connections
 	{
 		"OnTrigger" "exit_airlock_door-proxyOnProxyRelay10-1"
-		"OnTrigger" "lookat_player_rlTrigger0-1"
+		"OnTrigger" "lookat_player_rlTrigger0.1-1"
+		"OnTrigger" "spherebot_1_top_swivel_1RunScriptCodeClearTargets()0-1"
+		"OnTrigger" "spherebot_1_bottom_swivel_1RunScriptCodeClearTargets()0-1"
 	}
 	solid
 	{
@@ -77461,8 +77473,10 @@ entity
 	"wait" "1"
 	connections
 	{
-		"OnTrigger" "lookat_player_rlTrigger0-1"
+		"OnTrigger" "lookat_player_rlTrigger0.1-1"
 		"OnTrigger" "@music_sp_a2_bts4_b3Playsound01"
+		"OnTrigger" "spherebot_1_top_swivel_1RunScriptCodeClearTargets()0-1"
+		"OnTrigger" "spherebot_1_bottom_swivel_1RunScriptCodeClearTargets()0-1"
 	}
 	solid
 	{
@@ -77575,7 +77589,9 @@ entity
 	"targetname" "spherebot_train_office_path_9"
 	connections
 	{
-		"OnPass" "lookat_player_rlTrigger1-1"
+		"OnPass" "spherebot_1_bottom_swivel_1RunScriptCodeClearTargets()0-1"
+		"OnPass" "spherebot_1_top_swivel_1RunScriptCodeClearTargets()0-1"
+		"OnPass" "lookat_player_rlTrigger0.1-1"
 	}
 	"origin" "-1256 -6976 6816"
 	editor
@@ -83625,7 +83641,7 @@ entity
 {
 	"id" "605475"
 	"classname" "prop_dynamic"
-	"angles" "0 180 0"
+	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"MaxAnimTime" "10"
@@ -83639,7 +83655,7 @@ entity
 	"origin" "1424 -6848 6812"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "0 123 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 1500]"
@@ -83649,7 +83665,7 @@ entity
 {
 	"id" "605479"
 	"classname" "prop_dynamic_override"
-	"angles" "4 180 0"
+	"angles" "4 0 0"
 	"DisableBoneFollowers" "0"
 	"disablereceiveshadows" "0"
 	"ExplodeDamage" "0"
@@ -83676,10 +83692,10 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"spawnflags" "0"
-	"origin" "1384 -6848 6793.17"
+	"origin" "1464 -6848 6793.17"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "0 201 234"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 2000]"
@@ -83689,7 +83705,7 @@ entity
 {
 	"id" "605481"
 	"classname" "point_spotlight"
-	"angles" "1.5 180 0"
+	"angles" "1.5 0 0"
 	"HDRColorScale" "0.25"
 	"parentname" "turret_scanner_1_tank"
 	"renderamt" "255"
@@ -83698,10 +83714,11 @@ entity
 	"spotlightlength" "25"
 	"spotlightwidth" "50"
 	"targetname" "turret_scanner_flashlight"
-	"origin" "1345.64 -6848 6776.43"
+	"origin" "1502 -6849 6776.43"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "245 190 0"
+		"groupid" "763779"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 2500]"
@@ -83711,7 +83728,7 @@ entity
 {
 	"id" "605483"
 	"classname" "env_projectedtexture"
-	"angles" "1.5 180 0"
+	"angles" "1.5 0 0"
 	"brightnessscale" "1.0"
 	"colortransitiontime" "10"
 	"enableshadows" "1"
@@ -83725,7 +83742,7 @@ entity
 	"spawnflags" "3"
 	"targetname" "turret_scanner_flashlight"
 	"texturename" "effects/flashlight_security001"
-	"origin" "1345.64 -6848 6776.43"
+	"origin" "1420 -6926 6776.43"
 	editor
 	{
 		"color" "220 30 220"
@@ -83990,10 +84007,10 @@ entity
 	"spawnflags" "458752"
 	"StartOn" "1"
 	"targetname" "turret_scanner_1_enemyfinder"
-	"origin" "1340.44 -6848 6776"
+	"origin" "1508 -6848 6776"
 	editor
 	{
-		"color" "255 150 0"
+		"color" "0 151 244"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 6000]"
@@ -84897,6 +84914,8 @@ entity
 		"OnTrigger" "spherebot_1_windowsmash_moverOpen0.31"
 		"OnTrigger" "lookat_doorwindow_target_rlTrigger0-1"
 		"OnTrigger" "lookat_player_rlTrigger1-1"
+		"OnTrigger" "spherebot_1_top_swivel_1RunScriptCodeClearTargets()0.9-1"
+		"OnTrigger" "spherebot_1_bottom_swivel_1RunScriptCodeClearTargets()0.9-1"
 	}
 	"origin" "1495 -7348.87 6770.94"
 	editor
@@ -93198,9 +93217,11 @@ entity
 	connections
 	{
 		"OnTrigger" "@gladosRunScriptCodesabotage_factory_PlayerReachedWheatley()0-1"
-		"OnTrigger" "lookat_player_rlTrigger0-1"
+		"OnTrigger" "lookat_player_rlTrigger0.1-1"
 		"OnTrigger" "lookat_doorhack_computers_timerDisable0-1"
 		"OnTrigger" "move_wheatley_to_factory_exit_relayTrigger10-1"
+		"OnTrigger" "spherebot_1_bottom_swivel_1RunScriptCodeClearTargets()0-1"
+		"OnTrigger" "spherebot_1_top_swivel_1RunScriptCodeClearTargets()0-1"
 	}
 	solid
 	{
