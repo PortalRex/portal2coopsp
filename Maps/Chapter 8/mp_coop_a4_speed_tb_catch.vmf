@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "18"
+	"mapversion" "19"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -116,7 +116,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "18"
+	"mapversion" "19"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from sp_a4_speed_tb_catch"
 	"detailmaterial" "detail/detailsprites"
@@ -90307,7 +90307,6 @@ entity
 	"spawnflags" "0"
 	"speed" "100"
 	"startposition" "0"
-	"startsound" "World.TestChamberTravelLp"
 	"stopsound" "World.SlowCrusherCloseEnd"
 	"targetname" "chamber_exit"
 	connections
@@ -150561,8 +150560,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-669.575 1485.07 42.0657]"
-		"look" "[926.005 8507.99 -2353.69]"
+		"position" "[-1508.23 1574.97 80.6973]"
+		"look" "[-8888.8 3306.06 451.458]"
 	}
 	camera
 	{
