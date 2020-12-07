@@ -28,6 +28,7 @@ Credits:
 Valve: Creating such a wonderful game.
 Bill_play3: Playtesting, scripting, mapping
 Betsruner: Playtesting, scripting, mapping
+Stip: Playtesting, mapping, optimizations
 Blenderiste: Playtesting, scripting, mapping
 Krzychau: Scripting, Route Credit
 Arthurdead: Scripting
