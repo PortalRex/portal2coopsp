@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "28"
+	"mapversion" "29"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -92,7 +92,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "28"
+	"mapversion" "29"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from sp_a4_tb_wall_button"
 	"detailmaterial" "detail/detailsprites"
@@ -34790,83 +34790,80 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
-	hidden
+	solid
 	{
-		solid
+		"id" "2959"
+		side
 		{
-			"id" "2959"
-			side
-			{
-				"id" "2960"
-				"plane" "(592 1088 288) (592 1088 96) (656 1088 96)"
-				"material" "TOOLS/TOOLSSKIP"
-				"uaxis" "[1 0 0 0] 0.25"
-				"vaxis" "[0 0 -1 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "2961"
-				"plane" "(656 832 288) (656 832 96) (592 832 96)"
-				"material" "TOOLS/TOOLSSKIP"
-				"uaxis" "[-1 0 0 0] 0.25"
-				"vaxis" "[0 0 -1 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "2962"
-				"plane" "(592 832 288) (592 832 96) (592 1088 96)"
-				"material" "TOOLS/TOOLSSKIP"
-				"uaxis" "[0 -1 0 0] 0.25"
-				"vaxis" "[0 0 -1 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "2963"
-				"plane" "(656 1088 288) (656 1088 96) (656 832 96)"
-				"material" "TOOLS/TOOLSSKIP"
-				"uaxis" "[0 -1 0 0] 0.25"
-				"vaxis" "[0 0 -1 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "2964"
-				"plane" "(656 1088 96) (592 1088 96) (592 832 96)"
-				"material" "TOOLS/TOOLSSKIP"
-				"uaxis" "[0 -1 0 0] 0.25"
-				"vaxis" "[-1 0 0 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "2965"
-				"plane" "(656 832 288) (592 832 288) (592 1088 288)"
-				"material" "TOOLS/TOOLSSKIP"
-				"uaxis" "[0 1 0 0] 0.25"
-				"vaxis" "[-1 0 0 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			editor
-			{
-				"color" "0 222 227"
-				"visgroupshown" "1"
-				"visgroupautoshown" "1"
-			}
+			"id" "2960"
+			"plane" "(592 1088 288) (592 1088 96) (656 1088 96)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2961"
+			"plane" "(656 832 288) (656 832 96) (592 832 96)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2962"
+			"plane" "(592 832 288) (592 832 96) (592 1088 96)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2963"
+			"plane" "(656 1088 288) (656 1088 96) (656 832 96)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2964"
+			"plane" "(656 1088 96) (592 1088 96) (592 832 96)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[-1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2965"
+			"plane" "(656 832 288) (592 832 288) (592 1088 288)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[-1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 222 227"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
 		}
 	}
 	solid
@@ -62677,7 +62674,6 @@ entity
 	"spawnflags" "0"
 	"speed" "32"
 	"startposition" "0"
-	"startsound" "World.TestChamberTravelLp"
 	"stopsound" "World.SlowCrusherCloseEnd"
 	"targetname" "move_wall"
 	connections
@@ -129636,15 +129632,11 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[177.581 923.572 210.119]"
-		"look" "[-6443.71 1108.42 -673.694]"
+		"position" "[-2512 924 208]"
+		"look" "[-2512 7606.57 208]"
 	}
 }
 cordons
 {
 	"active" "0"
-}
-quickhide
-{
-	"count" "1"
 }
