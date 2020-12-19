@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "29"
+	"mapversion" "45"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -110,7 +110,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "29"
+	"mapversion" "45"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from sp_a2_core"
 	"detailmaterial" "detail/detailsprites"
@@ -34067,6 +34067,161 @@ world
 }
 entity
 {
+	"id" "844893"
+	"classname" "logic_branch"
+	"InitialValue" "0"
+	"targetname" "orange_check_stalemate_room"
+	"origin" "349.332 -470.937 1"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "844895"
+	"classname" "logic_branch"
+	"InitialValue" "0"
+	"targetname" "blue_check_stalemate_room"
+	"origin" "310.722 -462.179 1"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "844907"
+	"classname" "logic_branch_listener"
+	"Branch01" "blue_check_stalemate_room"
+	"Branch02" "orange_check_stalemate_room"
+	connections
+	{
+		"OnAllTrue" "player_inside_stalemate_room_triggerKill0-1"
+		"OnAllTrue" "core_receptacle_lookat_glados_relayTrigger01"
+		"OnAllTrue" "swap_entry_panels_rlTrigger01"
+		"OnAllTrue" "stalemate_door_swap_aiscEnable3.21"
+		"OnAllTrue" "music_sp_a2_core_b8.2PlaySound01"
+		"OnAllTrue" "stalemate_room_closeTrigger01"
+		"OnAllTrue" "begin_core_swap_relayTrigger01"
+		"OnAllTrue" "close_stalemate_room_doors_relayTrigger0-1"
+	}
+	"origin" "375.403 -458.78 1"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "845038"
+	"classname" "trigger_playerteam"
+	"origin" "4 36 124"
+	"spawnflags" "4097"
+	"StartDisabled" "1"
+	"target_team" "0"
+	"targetname" "stalemate_room_coop_check"
+	"trigger_once" "0"
+	connections
+	{
+		"OnStartTouchOrangePlayer" "orange_check_stalemate_roomSetValue10-1"
+		"OnStartTouchBluePlayer" "blue_check_stalemate_roomSetValue10-1"
+	}
+	solid
+	{
+		"id" "845022"
+		side
+		{
+			"id" "9319"
+			"plane" "(-696 656 296) (704 656 296) (704 -584 296)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9318"
+			"plane" "(-696 -584 -48) (704 -584 -48) (704 656 -48)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9317"
+			"plane" "(-696 656 296) (-696 -584 296) (-696 -584 -48)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9316"
+			"plane" "(704 656 -48) (704 -584 -48) (704 -584 296)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9315"
+			"plane" "(704 656 296) (-696 656 296) (-696 656 -48)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9314"
+			"plane" "(704 -584 -48) (-696 -584 -48) (-696 -584 296)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
 	"id" "841830"
 	"classname" "trigger_once"
 	"origin" "24 -896 104"
@@ -48415,21 +48570,18 @@ entity
 entity
 {
 	"id" "107307"
-	"classname" "trigger_multiple"
+	"classname" "trigger_playerteam"
 	"origin" "0 -1128 112"
 	"spawnflags" "4097"
 	"StartDisabled" "1"
+	"target_team" "0"
 	"targetname" "player_inside_stalemate_room_trigger"
-	"wait" "1"
+	"trigger_once" "0"
 	connections
 	{
-		"OnEndTouch" "!selfKill01"
-		"OnTrigger" "core_receptacle_lookat_glados_relayTrigger01"
-		"OnEndTouch" "begin_core_swap_relayTrigger01"
-		"OnEndTouch" "stalemate_door_swap_aiscEnable3.21"
-		"OnStartTouch" "swap_entry_panels_rlTrigger01"
-		"OnEndTouch" "stalemate_room_closeTrigger01"
-		"OnEndTouch" "music_sp_a2_core_b8.2PlaySound01"
+		"OnStartTouchBluePlayer" "blue_check_stalemate_roomSetValue00-1"
+		"OnStartTouchOrangePlayer" "orange_check_stalemate_roomSetValue00-1"
+		"OnStartTouch" "stalemate_room_coop_checkEnable0-1"
 	}
 	solid
 	{
@@ -50000,7 +50152,7 @@ entity
 		"OnTrigger" "statemate_double_arm_02SetAnimationstalemateclose0-1"
 		"OnTrigger" "statemate_double_arm_03SetDefaultAnimationstalemateclose_idle0-1"
 		"OnTrigger" "statemate_double_arm_03SetAnimationstalemateclose0-1"
-		"OnTrigger" "//stalemate_room_panel_clipsEnable0-1"
+		"OnTrigger" "stalemate_room_panel_clipsEnable0-1"
 	}
 	"origin" "-16.0643 -539.184 9"
 	editor
@@ -58335,10 +58487,11 @@ entity
 {
 	"id" "41614"
 	"classname" "logic_relay"
+	"spawnflags" "0"
 	"targetname" "glados_lookat_player"
 	connections
 	{
-		"OnTrigger" "glados_pointerSetTargetEntity!player0-1"
+		"OnTrigger" "glados_pointerRunScriptCodeStartTargetingClosestPlayer()0-1"
 	}
 	"origin" "-178.985 16.3589 355.602"
 	editor
@@ -61313,6 +61466,8 @@ entity
 	"spawnflags" "32769"
 	"spritescale" "1"
 	"targetname" "glados_pointer"
+	"thinkfunction" "TargetThink"
+	"vscripts" "target_player.nut"
 	"yawrange" "360"
 	"yawrate" "100"
 	"yawtolerance" "15"
@@ -78181,6 +78336,7 @@ entity
 {
 	"id" "254158"
 	"classname" "logic_relay"
+	"spawnflags" "0"
 	"targetname" "shield_disable_relay"
 	"origin" "0 -1280 224"
 	editor
@@ -78740,6 +78896,8 @@ entity
 	"spawnflags" "32768"
 	"spritescale" "1"
 	"targetname" "shield_1_pointer_1"
+	"thinkfunction" "TargetThink"
+	"vscripts" "target_player.nut"
 	"yawrange" "360"
 	"yawrate" "60"
 	"yawtolerance" "0"
@@ -78848,11 +79006,6 @@ entity
 	"id" "254185"
 	"classname" "logic_auto"
 	"spawnflags" "1"
-	connections
-	{
-		"OnMapSpawn" "shield_1_pointer_1SetTargetEntity!player0-1"
-		"OnMapSpawn" "shield_1_pointer_2SetTargetEntity!player0-1"
-	}
 	"origin" "48 -1248 64"
 	editor
 	{
@@ -80089,6 +80242,8 @@ entity
 	"spawnflags" "32768"
 	"spritescale" "1"
 	"targetname" "shield_1_pointer_2"
+	"thinkfunction" "TargetThink"
+	"vscripts" "target_player.nut"
 	"yawrange" "360"
 	"yawrate" "2000"
 	"yawtolerance" "0"
@@ -81313,98 +81468,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[5500 -768]"
-	}
-}
-entity
-{
-	"id" "254364"
-	"classname" "trigger_autosave"
-	"DangerousTimer" "2"
-	"MinimumHitPoints" "0"
-	"NewLevelUnit" "0"
-	"origin" "0 -1280 0"
-	solid
-	{
-		"id" "5454"
-		side
-		{
-			"id" "5455"
-			"plane" "(-320 -1024 256) (-320 -960 256) (320 -960 256)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 0 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5456"
-			"plane" "(-320 -1024 256) (-320 -1024 0) (-320 -960 0)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5457"
-			"plane" "(320 -960 256) (320 -960 0) (320 -1024 0)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5458"
-			"plane" "(320 -1024 256) (320 -1024 0) (-320 -1024 0)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5459"
-			"plane" "(-320 -960 256) (-320 -960 0) (320 -960 0)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5460"
-			"plane" "(-320 -960 0) (-320 -1024 0) (320 -1024 0)"
-			"material" "TOOLS/TOOLSTRIGGER"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 0 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[6000 0]"
 	}
 }
 entity
@@ -86088,6 +86151,8 @@ entity
 	{
 		"OnStartTouchOrangePlayer" "orange_checkSetValue10-1"
 		"OnStartTouchBluePlayer" "blue_checkSetValue10-1"
+		"OnStartTouch" "shield_1_pointer_1RunScriptCodeStartTargetingClosestPlayer()0-1"
+		"OnStartTouch" "shield_1_pointer_2RunScriptCodeStartTargetingClosestPlayer()0-1"
 	}
 	solid
 	{
