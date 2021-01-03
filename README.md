@@ -15,28 +15,48 @@ How to update:
 Replace all existing mod files with ones from the archive.
 
 Notes:
+
 	-Cooperative is very different from single player, holding wheatley/frankenturrets are a great example of this.
+	
 	-This is a very rough version of the maps with some very awful hacks. 
+	
 	-There will be softlocks, bugs, glitches, etc.
+	
 	-Things are subject to change throughout the life of the mod. (Looking at you button glitches) 
 	
 	
-Questions	
+Questions:
+
 	-If you wish to make a suggestion or have questions please join the discord. https://discord.gg/CbX46NM
  
+Coop Hub Template - https://www.moddb.com/mods/portal-2-coop-mod-template
+
 Credits:
+
 Valve: Creating such a wonderful game.
-Bill_play3: Playtesting, scripting, mapping
+
+Bill_play3: Playtesting, scripting, mapping 
+
 Betsruner: Playtesting, scripting, mapping
+
 Stip: Playtesting, mapping, optimizations
+
 Blenderiste: Playtesting, scripting, mapping
+
 Krzychau: Scripting, Route Credit
+
 Arthurdead: Scripting
+
 Dillon: Playtesting
+
 Ales: Playtesting
+
 Zach: Playtesting
+
 spidda: Playtesting
+
 Jake: Playtesting
+
 Jaio: Discord Icon
 
 If I missed you, I apologize. 
