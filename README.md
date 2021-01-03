@@ -24,6 +24,8 @@ Notes:
 Questions	
 	-If you wish to make a suggestion or have questions please join the discord. https://discord.gg/CbX46NM
  
+Coop Hub Template - https://www.moddb.com/mods/portal-2-coop-mod-template
+
 Credits:
 Valve: Creating such a wonderful game.
 Bill_play3: Playtesting, scripting, mapping
