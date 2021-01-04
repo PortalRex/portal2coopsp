@@ -1,8 +1,7 @@
 OldGetMapName <- GetMapName
 
 SpCoopMapTable <- {}
-SpCoopMapTable["mp_coop_lobby_3"] <- "sp_a1_intro1"
-SpCoopMapTable["mp_coop_start"] <- "sp_a1_intro1"
+SpCoopMapTable["mp_coop_a1_intro1"] <- "sp_a1_intro1"
 SpCoopMapTable["mp_coop_a1_intro2"] <- "sp_a1_intro2"
 SpCoopMapTable["mp_coop_a1_intro3"] <- "sp_a1_intro3"
 SpCoopMapTable["mp_coop_a1_intro4"] <- "sp_a1_intro4"
