@@ -1,0 +1,5 @@
+UnlitGeneric
+{
+$basetexture "vgui\screens\vgui_coop_progress_board_numbers"
+$translucent 1
+}

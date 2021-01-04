@@ -18,34 +18,27 @@ textPreview <- true
 
 // The name of the Hub map. This the map it will transition to when all maps are finished in the current course.
 // The hubmap will be ignored if tried to transition to if it is in MapPlayOrder[]
-HUB_MAP <- "mp_coop_start"
+HUB_MAP <- "mp_coop_lobby_3"
 
 //--------------------------------------------------------------------------------
 // Create new START and END maps to calculate a new level chooser for another course.
 // For eg. "map1ex" is the start level and "map3ex" is the end level of the first course.
 //--------------------------------------------------------------------------------
 START_MAP <- [ 
-"mp_coop_a1_intro1", //Course 1 StartMap
-"mp_coop_a2_laser_intro", //Course 2 StartMap
-"mp_coop_a2_sphere_peek",
-"mp_coop_a2_column_blocker",
-"mp_coop_a2_bts3",
-"mp_coop_a3_01",
-"mp_coop_a3_speed_ramp",
+"mp_coop_a1_intro1", 		//Act 1 Start Map
+"mp_coop_a2_intro",			//Act 2 half 1 Start Map
+"mp_coop_a2_column_blocker",//Act 2 half 2 Start Map
+"mp_coop_a3_01",			//Act 3 Start Map
 "mp_coop_a4_intro",
-"mp_coop_a4_finale1",
 ]
 
 END_MAP <- [ 
-"mp_coop_a2_intro", //Course 1 EndMap
-"mp_coop_a2_fizzler_intro", //Course 2 EndMap
-"mp_coop_a2_pull_the_rug",
-"mp_coop_a2_bts2",
-"mp_coop_a2_core",
-"mp_coop_a3_transition01",
-"mp_coop_a3_end",
-"mp_coop_a4_jump_polarity",
-"mp_coop_a4_finale4",
+"mp_coop_a1_wakeup", 			//Act 1 End Map
+"mp_coop_a2_pull_the_rug",		// Act 2 half 1 End Map
+"mp_coop_a2_core",				//Act 2 half 2 End Map
+"mp_coop_a3_end",				//Act 3 End Map
+"mp_coop_a4_finale4",			//Act 4 End Map
+
 ]
 
 //============================= MapPlayOrder[] ===================================
@@ -55,7 +48,7 @@ END_MAP <- [
 //--------------------------------------------------------------------------------
 MapPlayOrder<- [
 
-//Course 1
+//Act 1
 "mp_coop_a1_intro1",
 "mp_coop_a1_intro2",
 "mp_coop_a1_intro3",
@@ -64,9 +57,9 @@ MapPlayOrder<- [
 "mp_coop_a1_intro6",
 "mp_coop_a1_intro7",
 "mp_coop_a1_wakeup",
-"mp_coop_a2_intro",
 
-//Course 2
+//Act 2 - 1/2
+"mp_coop_a2_intro",
 "mp_coop_a2_laser_intro",
 "mp_coop_a2_laser_stairs",
 "mp_coop_a2_dual_lasers",
@@ -75,8 +68,6 @@ MapPlayOrder<- [
 "mp_coop_a2_trust_fling",
 "mp_coop_a2_pit_flings",
 "mp_coop_a2_fizzler_intro",
-
-//Course 3
 "mp_coop_a2_sphere_peek",
 "mp_coop_a2_ricochet",
 "mp_coop_a2_bridge_intro",
@@ -87,34 +78,31 @@ MapPlayOrder<- [
 "mp_coop_a2_laser_vs_turret",
 "mp_coop_a2_pull_the_rug",
 
-//Course 4
+
+//Act 2 - 2/2
 "mp_coop_a2_column_blocker",
 "mp_coop_a2_laser_chaining",
 "mp_coop_a2_triple_laser",
 "mp_coop_a2_bts1",
 "mp_coop_a2_bts2",
-
-//Course 5
 "mp_coop_a2_bts3",
 "mp_coop_a2_bts4",
 "mp_coop_a2_bts5",
 "mp_coop_a2_core",
 
-//Course 6
+//Act 3
 "mp_coop_a3_01",
 "mp_coop_a3_03",
 "mp_coop_a3_jump_intro",
 "mp_coop_a3_bomb_flings",
 "mp_coop_a3_crazy_box",
 "mp_coop_a3_transition01",
-
-//Course 7
 "mp_coop_a3_speed_ramp",
 "mp_coop_a3_speed_flings",
 "mp_coop_a3_portal_intro",
 "mp_coop_a3_end",
 
-//Course 8
+//Act 4
 "mp_coop_a4_intro",
 "mp_coop_a4_tb_intro",
 "mp_coop_a4_tb_trust_drop",
@@ -126,8 +114,6 @@ MapPlayOrder<- [
 "mp_coop_a4_laser_platform",
 "mp_coop_a4_speed_tb_catch"
 "mp_coop_a4_jump_polarity",
-
-//Course 9
 "mp_coop_a4_finale1",
 "mp_coop_a4_finale2",
 "mp_coop_a4_finale3",
@@ -214,7 +200,6 @@ function NumberOfLevels( nCourse )
 	foreach( index, map in MapPlayOrder )
 	{
 		//if( DBG ){ printl( "Loop number: " + index + " Current Map: " + MapPlayOrder[index] ) }
-
 		if ( MapPlayOrder[index] == START_MAP[nCurrent] )
 		{
 			//if( DBG ){ printl ( nCurrent ) }
@@ -230,8 +215,7 @@ function NumberOfLevels( nCourse )
 				//adds 1 as the loop has exited before adding the final map
 				courseEndIndex = levelIndex
 				counter++
-
-				//if( DBG ){ printl ( "Course: " + nCourse +" Levels: " + counter + ". LastMap: " + MapPlayOrder[courseEndIndex] + " index: " + courseEndIndex + ". FirstMap: " + MapPlayOrder[courseStartIndex] + " index: " + courseStartIndex ) }
+				//if( DBG ){ printl ( "Course: " + nCourse +" Levels: " + counter + ". LastMap: " + MapPlayOrder[courseEndIndex] + " index: " + courseEndIndex +h ". FirstMap: " + MapPlayOrder[courseStartIndex] + " index: " + courseStartIndex ) }
 				return counter
 			}
 			nCurrent++ 
@@ -257,10 +241,20 @@ function CheckHubMap( nMap ) {
 }
 
 //gets the current courses' number based off the instance
-Course1 <- 1;
-function AddCourse1(){Course1++}
-function SubtractCourse1(){Course1--}
-function getCourse() {return Course1;}
+function getCourse() 
+{
+	//the course name is set inside the instance's entity group -> [5]
+	local nCourse = EntityGroup[5].GetName()
+	printl(EntityGroup[5].GetName());
+	
+	//Finds the last digit of instance, and gets the course number from it
+	local length = nCourse.len()
+	length--
+	nCourse = nCourse[length].tochar().tointeger()
+
+	NumberOfLevels( nCourse )
+	return nCourse
+}
 
 function dumpLevel() { printl ( GetMapName() ) }
 
@@ -345,6 +339,7 @@ function AddLevel( nCourse )
 	UpdateCounter()
 	UpdateButtons()
 	if( textPreview ){ DisplayLevelTitle() }
+
 }
 
 //Pressing the Left button
