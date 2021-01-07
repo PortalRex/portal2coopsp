@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "17"
+	"mapversion" "21"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -116,7 +116,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "17"
+	"mapversion" "21"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from sp_a4_speed_tb_catch"
 	"detailmaterial" "detail/detailsprites"
@@ -88627,7 +88627,7 @@ entity
 {
 	"id" "214301"
 	"classname" "func_portal_detector"
-	"CheckAllIDs" "0"
+	"CheckAllIDs" "1"
 	"LinkageGroupID" "0"
 	"spawnflags" "0"
 	connections
@@ -90001,15 +90001,15 @@ entity
 		"OnTrigger" "chamber_exitSetSpeed755-1"
 		"OnTrigger" "chamber_exitSetSpeed1008-1"
 		"OnTrigger" "projected_light_1SetLightStyle00-1"
-		"OnTrigger" "//music1PlaySound0-1"
+		"OnTrigger" "music1PlaySound0-1"
 		"OnTrigger" "breakpanel4SetAnimationanim62-1"
 		"OnTrigger" "eggbot_triggerEnable4-1"
 		"OnTrigger" "eggbotSetAnimationstartled_sceneIdle1-1"
 		"OnTrigger" "eggbotEnable0.9-1"
 		"OnTrigger" "spark_trackStart0-1"
-		"OnTrigger" "//chamber_sfx.LPlaySound0-1"
-		"OnTrigger" "//chamber_sfx.RPlaySound0-1"
-		"OnTrigger" "//chamber_sfx_endPlaySound14-1"
+		"OnTrigger" "chamber_sfx.LPlaySound0-1"
+		"OnTrigger" "chamber_sfx.RPlaySound0-1"
+		"OnTrigger" "chamber_sfx_endPlaySound14-1"
 	}
 	"origin" "-1098.84 1108.78 -183"
 	editor
@@ -90174,7 +90174,7 @@ entity
 {
 	"id" "214310"
 	"classname" "func_portal_detector"
-	"CheckAllIDs" "0"
+	"CheckAllIDs" "1"
 	"LinkageGroupID" "0"
 	"spawnflags" "0"
 	connections
@@ -90307,7 +90307,6 @@ entity
 	"spawnflags" "0"
 	"speed" "100"
 	"startposition" "0"
-	"startsound" "World.TestChamberTravelLp"
 	"stopsound" "World.SlowCrusherCloseEnd"
 	"targetname" "chamber_exit"
 	connections
@@ -96390,6 +96389,7 @@ entity
 {
 	"id" "214513"
 	"classname" "logic_relay"
+	"spawnflags" "0"
 	"targetname" "enable_box_stopper_relay"
 	connections
 	{
@@ -96810,11 +96810,11 @@ entity
 	"targetname" "start_chamber_destruction"
 	connections
 	{
-		"OnTrigger" "//sound_start_move_chamberStopSound2.75-1"
-		"OnTrigger" "//sound_start_move_chamberVolume02.75-1"
+		"OnTrigger" "sound_start_move_chamberStopSound2.75-1"
+		"OnTrigger" "sound_start_move_chamberVolume02.75-1"
 		"OnTrigger" "relay_chamber_moveTrigger1.5-1"
-		"OnTrigger" "//sound_warmup_move_chamberPlaySound0.25-1"
-		"OnTrigger" "//sound_start_move_chamberPlaySound0-1"
+		"OnTrigger" "sound_warmup_move_chamberPlaySound0.25-1"
+		"OnTrigger" "sound_start_move_chamberPlaySound0-1"
 	}
 	"origin" "-688 1712 -16"
 	editor
@@ -150561,8 +150561,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-669.575 1485.07 42.0657]"
-		"look" "[926.005 8507.99 -2353.69]"
+		"position" "[-384.741 1471.55 -11.394]"
+		"look" "[3091.22 7590.41 -2854.64]"
 	}
 	camera
 	{

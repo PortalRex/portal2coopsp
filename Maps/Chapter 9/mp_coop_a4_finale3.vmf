@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "8"
+	"mapversion" "9"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -80,7 +80,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "8"
+	"mapversion" "9"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from sp_a4_finale3"
 	"detailmaterial" "detail/detailsprites"
@@ -82687,6 +82687,42 @@ world
 }
 entity
 {
+	"id" "1228893"
+	"classname" "info_coop_spawn"
+	"angles" "0 0 0"
+	"Enabled" "0"
+	"ForceGunOnSpawn" "1"
+	"StartingTeam" "3"
+	"targetname" "blue_second_spawn"
+	"origin" "-784 1424 -319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1228895"
+	"classname" "info_coop_spawn"
+	"angles" "0 0 0"
+	"Enabled" "0"
+	"ForceGunOnSpawn" "1"
+	"StartingTeam" "2"
+	"targetname" "red_second_spawn"
+	"origin" "-784 1328 -319"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
 	"id" "1224154"
 	"classname" "logic_script"
 	"targetname" "transition_script"
@@ -107952,6 +107988,9 @@ entity
 	connections
 	{
 		"OnTrigger" "conveyor_pushDisable0-1"
+		"OnTrigger" "blue_second_spawnSetAsActiveSpawn0-1"
+		"OnTrigger" "red_second_spawnSetAsActiveSpawn0-1"
+		"OnTrigger" "initial_spawnDisable0-1"
 	}
 	solid
 	{
@@ -167056,8 +167095,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-628.471 5335.02 597.787]"
-		"look" "[-718.834 5307.05 348.764]"
+		"position" "[-979.795 835.847 -193.626]"
+		"look" "[-860.332 611.16 -272.398]"
 	}
 }
 cordons
