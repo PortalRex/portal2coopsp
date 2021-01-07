@@ -18,7 +18,7 @@ textPreview <- true
 
 // The name of the Hub map. This the map it will transition to when all maps are finished in the current course.
 // The hubmap will be ignored if tried to transition to if it is in MapPlayOrder[]
-HUB_MAP <- "mp_coop_lobby_3"
+HUB_MAP <- "mp_coop_start"
 
 //--------------------------------------------------------------------------------
 // Create new START and END maps to calculate a new level chooser for another course.
@@ -245,7 +245,6 @@ function getCourse()
 {
 	//the course name is set inside the instance's entity group -> [5]
 	local nCourse = EntityGroup[5].GetName()
-	printl(EntityGroup[5].GetName());
 	
 	//Finds the last digit of instance, and gets the course number from it
 	local length = nCourse.len()
