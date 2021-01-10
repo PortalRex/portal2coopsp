@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8419"
-	"mapversion" "26"
+	"mapversion" "27"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -110,7 +110,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "26"
+	"mapversion" "27"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from sp_a2_sphere_peek"
 	"detailmaterial" "detail/detailsprites"
@@ -92848,7 +92848,7 @@ entity
 	"spawnflags" "1"
 	connections
 	{
-		"OnMapSpawn" "ramp_up_relayTrigger35-1"
+		"OnMapSpawn" "ramp_up_relayTrigger1-1"
 	}
 	"origin" "-642.68 1257 380.908"
 	editor
@@ -144393,8 +144393,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-519.557 1001.71 600.928]"
-		"look" "[-530.569 740.27 551.016]"
+		"position" "[-631.777 1360.62 453.971]"
+		"look" "[-634.017 1202.55 239.559]"
 	}
 }
 cordons
