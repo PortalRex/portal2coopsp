@@ -1,0 +1,7 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Portal 2\portal2\materials
+Loading a:\p2 coop sp\portal2coopsp\maps\chapter 1\mp_coop_a1_intro7.vmf
+ConVarRef gpu_level doesn't point to an existing ConVar
+Could not open instance file instances/lights/light_panel_32x128_cool_med.vmf

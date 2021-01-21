@@ -1,1 +1,13 @@
 compiled_maps
+
+//smsm stuff
+shortcut.lnk
+TODO LIST.txt
+.vscode
+smsm/.vs
+smsm/bin
+smsm/src/Debug
+smsm/src/Release
+gameinfo.txt
+RUN.bat
+.gitconfig
